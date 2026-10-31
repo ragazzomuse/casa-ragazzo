@@ -21,17 +21,18 @@ header p{color:#666;font-size:14px;margin:8px 0 0}
 .sheet img{width:100%;border-radius:10px} .thumbs{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px} .thumbs img{width:64px;height:64px;object-fit:cover;cursor:pointer;border:2px solid transparent} .thumbs img.on{border-color:#111}
 .sheet h2{font-size:20px;margin:14px 0 4px} .sheet p{font-size:14px;line-height:1.55;color:#444}
 .sheet a{color:#111} .sheet button{border:1px solid #ccc;background:#fff;border-radius:8px;padding:7px 12px;cursor:pointer}
-.varbtn{border:1px solid #ccc;background:#fff;border-radius:999px;padding:5px 11px;margin:3px;cursor:pointer;font-size:13px} .varbtn.on{background:#111;color:#fff}
+.fs h3{margin:18px 0 8px;font-size:15px} .fs label{display:block;font-size:14px;padding:4px 0;cursor:pointer} .fs input[type=number]{width:110px;border:1px solid #ccc;border-radius:8px;padding:7px} .varbtn{border:1px solid #ccc;background:#fff;border-radius:999px;padding:5px 11px;margin:3px;cursor:pointer;font-size:13px} .varbtn.on{background:#111;color:#fff}
 footer{max-width:1100px;margin:0 auto;padding:0 12px 40px;color:#888;font-size:12px}
 </style></head><body>
 <header><h1>CASA RAGAZZO</h1></header>
-<div class="toolbar"><input id="q" placeholder="Search the store"><select id="sort"><option value="brand">Brand A–Z</option><option value="newest">Newest</option><option value="price">Price</option><option value="name">Name</option></select></div>
-<div class="cats" id="cats"></div><div class="brands" id="brands"></div><div class="count" id="count"></div>
+<div class="toolbar"><input id="q" placeholder="Search the store"><button id="filtersBtn" style="border:1px solid #ccc;background:#fff;border-radius:8px;padding:8px 12px;cursor:pointer;font-size:14px">Filters</button><select id="sort"><option value="brand">Brand A–Z</option><option value="newest">Newest</option><option value="price">Price</option><option value="name">Name</option></select></div>
+<div class="cats" id="cats"></div><div class="cats" id="subs"></div><div class="count" id="count"></div><div id="active"></div>
+<div class="modal" id="filtersModal"><div class="sheet" id="filtersSheet"></div></div>
 <div class="grid" id="grid"></div>
 <div class="modal" id="modal"><div class="sheet" id="sheet"></div></div>
 <footer id="foot"></footer>
 <script>
-var ITEMS=[], cat='All', brand='All', q='', sort='brand';
+var ITEMS=[], cat='All', sub='All', brand='All', q='', sort='brand', minP='', maxP='';
 fetch('items.json?v='+Date.now()).then(function(r){return r.json();}).then(function(d){
   ITEMS=d.items; document.getElementById('foot').textContent=d.count+' items · Last updated '+d.updated+' · This page reads its data live, so it updates whenever the data file changes.';
   render();
@@ -40,16 +41,36 @@ function chip(id,list,cur,set){document.getElementById(id).innerHTML=list.map(fu
 document.getElementById(id).querySelectorAll('button').forEach(function(b){b.onclick=function(){set(b.getAttribute('data-v')); render();};});}
 function priceStr(i){var vs=i.variants.map(function(v){return v.price;}).filter(function(p){return p!=null;}); if(vs.length&&Math.min.apply(null,vs)!==Math.max.apply(null,vs)) return '$'+Math.min.apply(null,vs)+'–$'+Math.max.apply(null,vs); return '$'+i.price;}
 function render(){
-  var cats=['All'], brands=['All']; ITEMS.forEach(function(i){if(cats.indexOf(i.category)<0) cats.push(i.category); if(brands.indexOf(i.brand)<0) brands.push(i.brand);});
-  chip('cats',cats,cat,function(v){cat=v;}); chip('brands',brands,brand,function(v){brand=v;});
-  var list=ITEMS.filter(function(i){return (cat==='All'||i.category===cat)&&(brand==='All'||i.brand===brand)&&((i.brand+' '+i.title).toLowerCase().indexOf(q.toLowerCase())>=0);});
+  var cats=['All'], subs=['All'], brands=['All'];
+  ITEMS.forEach(function(i){if(cats.indexOf(i.category)<0) cats.push(i.category); if(cat!=='All'&&i.category===cat&&i.subcategory&&subs.indexOf(i.subcategory)<0) subs.push(i.subcategory); if(brands.indexOf(i.brand)<0) brands.push(i.brand);});
+  chip('cats',cats.map(function(c){var n=c==='All'?ITEMS.length:ITEMS.filter(function(i){return i.category===c;}).length; return c+' ('+n+')';}),cat+' ('+(cat==='All'?ITEMS.length:ITEMS.filter(function(i){return i.category===cat;}).length)+')',function(v){cat=v.split(' (')[0]; sub='All';});
+  // department chips use label with count; strip count on click via split above
+  var subList = cat==='All' ? [] : subs;
+  document.getElementById('subs').innerHTML = subList.length ? subList.map(function(s){return '<button class="'+(s===sub?'on':'')+'" data-v="'+s+'">'+s+'</button>';}).join('') : '';
+  document.querySelectorAll('#subs button').forEach(function(b){b.onclick=function(){sub=b.getAttribute('data-v'); render();};});
+  var list=ITEMS.filter(function(i){return (cat==='All'||i.category===cat)&&(sub==='All'||i.subcategory===sub)&&(brand==='All'||i.brand===brand)&&((i.brand+' '+i.title).toLowerCase().indexOf(q.toLowerCase())>=0)&&(minP===''||i.price>=+minP)&&(maxP===''||i.price<=+maxP);});
   if(sort==='brand') list.sort(function(a,b){return (a.brand+b.title).localeCompare(b.brand+b.title);});
   if(sort==='name') list.sort(function(a,b){return a.title.localeCompare(b.title);});
   if(sort==='price') list.sort(function(a,b){return a.price-b.price;});
   document.getElementById('count').textContent=list.length+' results';
+  var act=[]; if(sub!=='All') act.push(sub); if(brand!=='All') act.push(brand); if(minP!==''||maxP!=='') act.push('$'+(minP||'0')+'–$'+(maxP||'∞'));
+  document.getElementById('active').innerHTML = act.length ? '<div style="max-width:1100px;margin:0 auto;padding:0 12px 12px;font-size:13px">Filters: '+act.join(' · ')+' <button onclick="clearFilters()" style="border:1px solid #ccc;background:#fff;border-radius:8px;padding:4px 8px;cursor:pointer">Clear</button></div>' : '';
   document.getElementById('grid').innerHTML=list.map(function(i){var idx=ITEMS.indexOf(i); return '<button class="card" data-i="'+idx+'"><img src="'+i.image+'" alt="" loading="eager"><div class="brand">'+i.brand.toUpperCase()+'</div><div class="title">'+i.title+'</div>'+(i.subcategory?'<div class="meta">'+i.subcategory+'</div>':'')+(i.size?'<div class="meta">'+i.size+'</div>':'')+'<div class="price">'+priceStr(i)+' USD</div></button>';}).join('');
   document.querySelectorAll('.card').forEach(function(c){c.onclick=function(){openDetail(ITEMS[+c.getAttribute('data-i')]);};});
 }
+function clearFilters(){sub='All'; brand='All'; minP=''; maxP=''; render();}
+function openFilters(){
+  var cats2=['All']; ITEMS.forEach(function(i){if(cats2.indexOf(i.category)<0) cats2.push(i.category);});
+  var subOpts = cat==='All' ? [] : Array.from(new Set(ITEMS.filter(function(i){return i.category===cat;}).map(function(i){return i.subcategory;}).filter(Boolean)));
+  var brandOpts = Array.from(new Set(ITEMS.map(function(i){return i.brand;}))).sort();
+  var html='<div class="fs"><button onclick="document.getElementById(\'filtersModal\').classList.remove(\'open\')">Close</button><h2>Filters</h2>';
+  if(subOpts.length){html+='<h3>Sub-category</h3>'+['All'].concat(subOpts).map(function(s){return '<label><input type="radio" name="sub" value="'+s+'" '+(s===sub?'checked':'')+'> '+s+'</label>';}).join('');}
+  html+='<h3>Brand</h3>'+['All'].concat(brandOpts).map(function(b){var n=ITEMS.filter(function(i){return i.brand===b;}).length; return '<label><input type="radio" name="brand" value="'+b+'" '+(b===brand?'checked':'')+'> '+b+' ('+n+')</label>';}).join('');
+  html+='<h3>Price range (USD)</h3><label>Min <input type="number" id="minP" value="'+minP+'" placeholder="0"></label><label>Max <input type="number" id="maxP" value="'+maxP+'" placeholder="5900"></label>';
+  html+='<div style="margin-top:16px"><button onclick="applyFilters()" style="background:#111;color:#fff;border-color:#111">Apply filters</button> <button onclick="clearFilters();document.getElementById(\'filtersModal\').classList.remove(\'open\')">Clear all</button></div></div>';
+  document.getElementById('filtersSheet').innerHTML=html; document.getElementById('filtersModal').classList.add('open');
+}
+function applyFilters(){var s=document.querySelector('input[name="sub"]:checked'); if(s) sub=s.value; var b=document.querySelector('input[name="brand"]:checked'); if(b) brand=b.value; minP=document.getElementById('minP').value; maxP=document.getElementById('maxP').value; document.getElementById('filtersModal').classList.remove('open'); render();}
 function openDetail(i){
   var imgs=[i.image]; (i.variants||[]).forEach(function(v){(v.images||[]).forEach(function(im){if(imgs.indexOf(im)<0) imgs.push(im);});});
   var cur=0;
@@ -59,6 +80,7 @@ function openDetail(i){
   document.querySelectorAll('.thumbs img').forEach(function(t){t.onclick=function(){cur=+t.getAttribute('data-ii'); document.getElementById('mainimg').src=imgs[cur]; document.querySelectorAll('.thumbs img').forEach(function(x){x.classList.toggle('on',x===t);});};});
   document.querySelectorAll('.varbtn').forEach(function(b){b.onclick=function(){var v=i.variants[+b.getAttribute('data-x')]; if(v.images&&v.images[0]){cur=imgs.indexOf(v.images[0]); document.getElementById('mainimg').src=v.images[0];} document.querySelectorAll('.varbtn').forEach(function(x){x.classList.toggle('on',x===b);});};});
 }
+document.getElementById('filtersBtn').onclick=openFilters; document.getElementById('filtersModal').onclick=function(e){if(e.target.id==='filtersModal') this.classList.remove('open');};
 document.getElementById('modal').onclick=function(e){if(e.target.id==='modal') this.classList.remove('open');};
 document.getElementById('q').oninput=function(e){q=e.target.value; render();};
 document.getElementById('sort').onchange=function(e){sort=e.target.value; render();};
