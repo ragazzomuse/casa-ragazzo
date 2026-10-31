@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Casa Ragazzo</title>
+<style>
+*{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,Helvetica,Arial,sans-serif;color:#111;background:#fff}
+header{text-align:center;padding:28px 12px 8px;border-bottom:1px solid #ddd} header h1{margin:0;font-size:30px;letter-spacing:.18em}
+header p{color:#666;font-size:14px;margin:8px 0 0}
+.toolbar{display:flex;flex-wrap:wrap;gap:8px;max-width:1100px;margin:0 auto;padding:14px 12px}
+.toolbar input,.toolbar select{border:1px solid #ccc;border-radius:8px;padding:8px 10px;font-size:14px} .toolbar input{flex:1;min-width:160px}
+.cats,.brands{display:flex;flex-wrap:wrap;gap:6px;max-width:1100px;margin:0 auto;padding:0 12px 12px}
+.cats button,.brands button{border:1px solid #ccc;background:#fff;border-radius:999px;padding:5px 12px;font-size:12px;cursor:pointer}
+.cats button.on,.brands button.on{background:#111;color:#fff;border-color:#111}
+.count{max-width:1100px;margin:0 auto;padding:0 12px 12px;color:#666;font-size:13px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:20px;max-width:1100px;margin:0 auto;padding:0 12px 40px}
+.card{border:0;background:none;text-align:left;padding:0;cursor:pointer;font-family:inherit;color:#111}
+.card img{width:100%;aspect-ratio:1;object-fit:cover;display:block;background:#f2f2f2}
+.brand{font-size:11px;letter-spacing:.08em;font-weight:700;padding-top:8px}
+.title{font-size:14px;line-height:1.35;margin-top:2px} .meta{font-size:12px;color:#666;margin-top:2px} .price{font-size:14px;font-weight:700;margin-top:4px}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.55);display:none;overflow:auto;padding:24px 12px;z-index:50}
+.modal.open{display:block} .sheet{background:#fff;max-width:560px;margin:0 auto;border-radius:14px;padding:18px}
+.sheet img{width:100%;border-radius:10px} .thumbs{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px} .thumbs img{width:64px;height:64px;object-fit:cover;cursor:pointer;border:2px solid transparent} .thumbs img.on{border-color:#111}
+.sheet h2{font-size:20px;margin:14px 0 4px} .sheet p{font-size:14px;line-height:1.55;color:#444}
+.sheet a{color:#111} .sheet button{border:1px solid #ccc;background:#fff;border-radius:8px;padding:7px 12px;cursor:pointer}
+.varbtn{border:1px solid #ccc;background:#fff;border-radius:999px;padding:5px 11px;margin:3px;cursor:pointer;font-size:13px} .varbtn.on{background:#111;color:#fff}
+footer{max-width:1100px;margin:0 auto;padding:0 12px 40px;color:#888;font-size:12px}
+</style></head><body>
+<header><h1>CASA RAGAZZO</h1><p>A gift list — shop catalog only. Prices in USD. Click an item to view it at the retailer.</p></header>
+<div class="toolbar"><input id="q" placeholder="Search the store"><select id="sort"><option value="brand">Brand A–Z</option><option value="newest">Newest</option><option value="price">Price</option><option value="name">Name</option></select></div>
+<div class="cats" id="cats"></div><div class="brands" id="brands"></div><div class="count" id="count"></div>
+<div class="grid" id="grid"></div>
+<div class="modal" id="modal"><div class="sheet" id="sheet"></div></div>
+<footer id="foot"></footer>
+<script>
+var ITEMS=[], cat='All', brand='All', q='', sort='brand';
+fetch('items.json?v='+Date.now()).then(function(r){return r.json();}).then(function(d){
+  ITEMS=d.items; document.getElementById('foot').textContent=d.count+' items · Last updated '+d.updated+' · This page reads its data live, so it updates whenever the data file changes.';
+  render();
+});
+function chip(id,list,cur,set){document.getElementById(id).innerHTML=list.map(function(v){return '<button class="'+(v===cur?'on':'')+'" data-v="'+v.replace(/"/g,'')+'">'+v+'</button>';}).join('');
+document.getElementById(id).querySelectorAll('button').forEach(function(b){b.onclick=function(){set(b.getAttribute('data-v')); render();};});}
+function priceStr(i){var vs=i.variants.map(function(v){return v.price;}).filter(function(p){return p!=null;}); if(vs.length&&Math.min.apply(null,vs)!==Math.max.apply(null,vs)) return '$'+Math.min.apply(null,vs)+'–$'+Math.max.apply(null,vs); return '$'+i.price;}
+function render(){
+  var cats=['All'], brands=['All']; ITEMS.forEach(function(i){if(cats.indexOf(i.category)<0) cats.push(i.category); if(brands.indexOf(i.brand)<0) brands.push(i.brand);});
+  chip('cats',cats,cat,function(v){cat=v;}); chip('brands',brands,brand,function(v){brand=v;});
+  var list=ITEMS.filter(function(i){return (cat==='All'||i.category===cat)&&(brand==='All'||i.brand===brand)&&((i.brand+' '+i.title).toLowerCase().indexOf(q.toLowerCase())>=0);});
+  if(sort==='brand') list.sort(function(a,b){return (a.brand+b.title).localeCompare(b.brand+b.title);});
+  if(sort==='name') list.sort(function(a,b){return a.title.localeCompare(b.title);});
+  if(sort==='price') list.sort(function(a,b){return a.price-b.price;});
+  document.getElementById('count').textContent=list.length+' results';
+  document.getElementById('grid').innerHTML=list.map(function(i){var idx=ITEMS.indexOf(i); return '<button class="card" data-i="'+idx+'"><img src="'+i.image+'" alt="" loading="eager"><div class="brand">'+i.brand.toUpperCase()+'</div><div class="title">'+i.title+'</div>'+(i.subcategory?'<div class="meta">'+i.subcategory+'</div>':'')+(i.size?'<div class="meta">'+i.size+'</div>':'')+'<div class="price">'+priceStr(i)+' USD</div></button>';}).join('');
+  document.querySelectorAll('.card').forEach(function(c){c.onclick=function(){openDetail(ITEMS[+c.getAttribute('data-i')]);};});
+}
+function openDetail(i){
+  var imgs=[i.image]; (i.variants||[]).forEach(function(v){(v.images||[]).forEach(function(im){if(imgs.indexOf(im)<0) imgs.push(im);});});
+  var cur=0;
+  function sheetHTML(){var v=i.variants.length?'<p>'+i.variantLabel+': '+i.variants.map(function(x,xi){return '<button class="varbtn '+(xi===cur?'on':'')+'" data-x="'+xi+'">'+x.label+(x.price?' — $'+x.price:'')+'</button>';}).join('')+'</p>':'';
+  return '<button onclick="document.getElementById(\'modal\').classList.remove(\'open\')">Close</button><img id="mainimg" src="'+imgs[cur]+'" alt=""><div class="thumbs">'+imgs.map(function(im,ii){return '<img src="'+im+'" data-ii="'+ii+'" class="'+(ii===cur?'on':'')+'">';}).join('')+'</div><h2>'+i.brand.toUpperCase()+' — '+i.title+'</h2><p>Department: '+i.category+(i.subcategory?' · '+i.subcategory:'')+'</p><p>Sold at: '+i.retailer+'</p>'+(i.size?'<p>Your size: '+i.size+'</p>':'')+v+'<p><a href="'+i.url+'" target="_blank" rel="noopener">View at retailer</a></p>';}
+  document.getElementById('sheet').innerHTML=sheetHTML(); document.getElementById('modal').classList.add('open');
+  document.querySelectorAll('.thumbs img').forEach(function(t){t.onclick=function(){cur=+t.getAttribute('data-ii'); document.getElementById('mainimg').src=imgs[cur]; document.querySelectorAll('.thumbs img').forEach(function(x){x.classList.toggle('on',x===t);});};});
+  document.querySelectorAll('.varbtn').forEach(function(b){b.onclick=function(){var v=i.variants[+b.getAttribute('data-x')]; if(v.images&&v.images[0]){cur=imgs.indexOf(v.images[0]); document.getElementById('mainimg').src=v.images[0];} document.querySelectorAll('.varbtn').forEach(function(x){x.classList.toggle('on',x===b);});};});
+}
+document.getElementById('modal').onclick=function(e){if(e.target.id==='modal') this.classList.remove('open');};
+document.getElementById('q').oninput=function(e){q=e.target.value; render();};
+document.getElementById('sort').onchange=function(e){sort=e.target.value; render();};
+</script></body></html>
