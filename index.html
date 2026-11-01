@@ -11,7 +11,9 @@ header p{color:#666;font-size:14px;margin:8px 0 0}
 .cats button,.brands button{border:1px solid #ccc;background:#fff;border-radius:999px;padding:5px 12px;font-size:12px;cursor:pointer}
 .cats button.on,.brands button.on{background:#111;color:#fff;border-color:#111}
 .count{max-width:1100px;margin:0 auto;padding:0 12px 12px;color:#666;font-size:13px}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:20px;max-width:1100px;margin:0 auto;padding:0 12px 40px}
+.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px 16px;max-width:1200px;margin:0 auto;padding:0 20px 40px}
+@media (max-width:900px){.grid{grid-template-columns:repeat(3,minmax(0,1fr));}}
+@media (max-width:600px){.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 12px;padding:0 12px 32px;}}
 .card{border:0;background:none;text-align:left;padding:0;cursor:pointer;font-family:inherit;color:#111}
 .card img{width:100%;aspect-ratio:1;object-fit:cover;display:block;background:#f2f2f2}
 .brand{font-size:11px;letter-spacing:.08em;font-weight:700;padding-top:8px}
