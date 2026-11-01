@@ -1,6 +1,6 @@
 {
   "updated": "2026-10-31",
-  "count": 45,
+  "count": 46,
   "items": [
     {
       "id": 3,
@@ -767,6 +767,21 @@
       "subcategory": "Bottoms",
       "image": "https://img.ssensemedia.com/images/f_auto,c_limit,w_1920/261733M193010_1/satisfy-blue-peaceshell-unlined-shorts.jpg",
       "url": "https://www.ssense.com/en-us/men/product/satisfy/blue-peaceshell-unlined-shorts/18886511",
+      "retailer": "ssense.com",
+      "variantLabel": "Colour",
+      "variants": []
+    },
+    {
+      "id": 55,
+      "brand": "Jean Paul Gaultier",
+      "title": "Beige 'The Face' T-shirt",
+      "price": 550,
+      "currency": "USD",
+      "size": "XS/S",
+      "category": "Clothing",
+      "subcategory": "Tees",
+      "image": "https://img.ssensemedia.com/images/f_auto,c_limit,w_1920/262808M213006_1/jean-paul-gaultier-beige-the-face-t-shirt.jpg",
+      "url": "https://www.ssense.com/en-us/men/product/jean-paul-gaultier/beige-the-face-t-shirt/19708661",
       "retailer": "ssense.com",
       "variantLabel": "Colour",
       "variants": []
