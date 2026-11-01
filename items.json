@@ -1,6 +1,6 @@
 {
   "updated": "2026-10-31",
-  "count": 44,
+  "count": 45,
   "items": [
     {
       "id": 3,
@@ -744,8 +744,8 @@
     {
       "id": 53,
       "brand": "Satisfy",
-      "title": "PeaceShell Unlined Shorts",
-      "price": 250,
+      "title": "Silver PeaceShell Unlined Shorts",
+      "price": 285,
       "currency": "USD",
       "size": "XS",
       "category": "Clothing",
@@ -754,22 +754,22 @@
       "url": "https://www.ssense.com/en-us/men/product/satisfy/silver-peaceshell-unlined-shorts/18886501",
       "retailer": "ssense.com",
       "variantLabel": "Colour",
-      "variants": [
-        {
-          "label": "Silver",
-          "price": 285,
-          "images": [
-            "https://img.ssensemedia.com/images/f_auto,c_limit,w_1920/261733M193009_1/satisfy-silver-peaceshell-unlined-shorts.jpg"
-          ]
-        },
-        {
-          "label": "Blue",
-          "price": 250,
-          "images": [
-            "https://img.ssensemedia.com/images/f_auto,c_limit,w_1920/261733M193010_1/satisfy-blue-peaceshell-unlined-shorts.jpg"
-          ]
-        }
-      ]
+      "variants": []
+    },
+    {
+      "id": 54,
+      "brand": "Satisfy",
+      "title": "Blue PeaceShell Unlined Shorts",
+      "price": 250,
+      "currency": "USD",
+      "size": "XS",
+      "category": "Clothing",
+      "subcategory": "Bottoms",
+      "image": "https://img.ssensemedia.com/images/f_auto,c_limit,w_1920/261733M193010_1/satisfy-blue-peaceshell-unlined-shorts.jpg",
+      "url": "https://www.ssense.com/en-us/men/product/satisfy/blue-peaceshell-unlined-shorts/18886511",
+      "retailer": "ssense.com",
+      "variantLabel": "Colour",
+      "variants": []
     }
   ]
 }
