@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-31",
-  "count": 46,
+  "updated": "2026-11-02",
+  "count": 47,
   "items": [
     {
       "id": 3,
@@ -783,6 +783,21 @@
       "image": "https://img.ssensemedia.com/images/f_auto,c_limit,w_1920/262808M213006_1/jean-paul-gaultier-beige-the-face-t-shirt.jpg",
       "url": "https://www.ssense.com/en-us/men/product/jean-paul-gaultier/beige-the-face-t-shirt/19708661",
       "retailer": "ssense.com",
+      "variantLabel": "Colour",
+      "variants": []
+    },
+    {
+      "id": 56,
+      "brand": "Maison Margiela",
+      "title": "Link Big Chain Choker - Cognac",
+      "price": 1090,
+      "currency": "USD",
+      "size": "One size",
+      "category": "Jewelry",
+      "subcategory": "Necklaces",
+      "image": "https://www.maisonmargiela.com/dw/image/v2/AAPK_PRD/on/demandware.static/-/Sites-margiela-master-catalog/default/dw52ddf32f/images/large/SM2UU0043_P9426_771_F.webp?sw=1024&sfrm=jpg&q=80",
+      "url": "https://www.maisonmargiela.com/en-us/link-big-chain-choker-SM2UU0043P9426771.html",
+      "retailer": "maisonmargiela.com",
       "variantLabel": "Colour",
       "variants": []
     }
