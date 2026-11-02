@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-02",
-  "count": 47,
+  "count": 48,
   "items": [
     {
       "id": 3,
@@ -798,6 +798,21 @@
       "image": "https://www.maisonmargiela.com/dw/image/v2/AAPK_PRD/on/demandware.static/-/Sites-margiela-master-catalog/default/dw52ddf32f/images/large/SM2UU0043_P9426_771_F.webp?sw=1024&sfrm=jpg&q=80",
       "url": "https://www.maisonmargiela.com/en-us/link-big-chain-choker-SM2UU0043P9426771.html",
       "retailer": "maisonmargiela.com",
+      "variantLabel": "Colour",
+      "variants": []
+    },
+    {
+      "id": 57,
+      "brand": "Satisfy",
+      "title": "Brown MothTech Muscle Tank Top",
+      "price": 145,
+      "currency": "USD",
+      "size": "XS",
+      "category": "Clothing",
+      "subcategory": "Tanks",
+      "image": "https://img.ssensemedia.com/images/f_auto,c_limit,w_1920/262733M213011_1/satisfy-brown-mothtech-muscle-tank-top.jpg",
+      "url": "https://www.ssense.com/en-us/men/product/satisfy/brown-mothtech-muscle-tank-top/19506031",
+      "retailer": "ssense.com",
       "variantLabel": "Colour",
       "variants": []
     }
