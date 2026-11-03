@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-02",
-  "count": 48,
+  "updated": "2026-11-03",
+  "count": 49,
   "items": [
     {
       "id": 3,
@@ -813,6 +813,21 @@
       "image": "https://img.ssensemedia.com/images/f_auto,c_limit,w_1920/262733M213011_1/satisfy-brown-mothtech-muscle-tank-top.jpg",
       "url": "https://www.ssense.com/en-us/men/product/satisfy/brown-mothtech-muscle-tank-top/19506031",
       "retailer": "ssense.com",
+      "variantLabel": "Colour",
+      "variants": []
+    },
+    {
+      "id": 58,
+      "brand": "Le Creuset",
+      "title": "Enameled-Steel Stockpot - Sea Salt",
+      "price": 119,
+      "currency": "USD",
+      "size": "6 Qt",
+      "category": "Home",
+      "subcategory": "Kitchen & Dining",
+      "image": "https://assets.wsimgs.com/wsimgs/ab/images/dp/wcm/202635/0034/img36j.jpg",
+      "url": "https://www.williams-sonoma.com/products/le-creuset-stock-pot-ss-knob/?sku=5158724",
+      "retailer": "williams-sonoma.com",
       "variantLabel": "Colour",
       "variants": []
     }
