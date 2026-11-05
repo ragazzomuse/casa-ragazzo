@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-03",
-  "count": 49,
+  "updated": "2026-11-04",
+  "count": 50,
   "items": [
     {
       "id": 3,
@@ -830,6 +830,43 @@
       "retailer": "williams-sonoma.com",
       "variantLabel": "Colour",
       "variants": []
+    },
+    {
+      "id": 61,
+      "brand": "Nike",
+      "title": "Tempo Waistpack",
+      "price": 30,
+      "currency": "USD",
+      "size": "One size",
+      "category": "Bags",
+      "subcategory": "Crossbody Bags",
+      "image": "https://academy.scene7.com/is/image/academy/21472696?$pdp-thumbnails-md-ng$",
+      "url": "https://www.academy.com/p/nike-tempo-waistpack?sku=black-silver",
+      "retailer": "academy.com",
+      "variantLabel": "Colour",
+      "variants": [
+        {
+          "label": "Black/Silver",
+          "price": 30,
+          "images": [
+            "https://academy.scene7.com/is/image/academy/21472696?$pdp-thumbnails-md-ng$"
+          ]
+        },
+        {
+          "label": "Light Blue/Light Green",
+          "price": 30,
+          "images": [
+            "https://academy.scene7.com/is/image/academy/21735345?$pdp-thumbnails-md-ng$"
+          ]
+        },
+        {
+          "label": "Turquoise/White",
+          "price": 30,
+          "images": [
+            "https://academy.scene7.com/is/image/academy/21472698?$pdp-thumbnails-md-ng$"
+          ]
+        }
+      ]
     }
   ]
 }
