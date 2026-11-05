@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-04",
-  "count": 51,
+  "count": 52,
   "items": [
     {
       "id": 3,
@@ -883,6 +883,22 @@
       "retailer": "academy.com",
       "variantLabel": "Colour",
       "variants": []
+    },
+    {
+      "id": 63,
+      "brand": "Nike",
+      "title": "Standard Issue Men's 5\" Practice Mesh Basketball Shorts - Turf Orange/Pale Ivory",
+      "price": 39.97,
+      "currency": "USD",
+      "size": "XS",
+      "category": "Clothing",
+      "subcategory": "Bottoms",
+      "image": "https://static.nike.com/a/images/t_PDP_144_v1/f_auto,q_auto:eco,u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/b8932b3e-2c7a-4589-ba4a-2d15c92d71d9/M+NK+DF+SI+PRAC+MESH+5IN+AOP2.png",
+      "url": "https://www.nike.com/t/standard-issue-mens-5-practice-mesh-basketball-shorts-6NCw8Y6w/IF2555-842",
+      "retailer": "nike.com",
+      "variantLabel": "Colour",
+      "variants": [],
+      "availability": "available"
     }
   ]
 }
