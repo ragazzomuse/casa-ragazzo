@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-05",
-  "count": 54,
+  "count": 55,
   "items": [
     {
       "id": 3,
@@ -928,6 +928,22 @@
       "image": "https://cdn.shopify.com/s/files/1/0879/6548/files/BROWN.STUDDEDBELT.01_bf1c6083-a7d3-4be4-b086-93f13b8df1d6.jpg?v=1789078301",
       "url": "https://pleasuresnow.com/products/pleasures-pleasures-studded-belt-brown-f26?variant=45394229886999",
       "retailer": "pleasuresnow.com",
+      "variantLabel": "Colour",
+      "variants": [],
+      "availability": "available"
+    },
+    {
+      "id": 67,
+      "brand": "Ariat",
+      "title": "Sundown Belt - Saddle Brown",
+      "price": 225,
+      "currency": "USD",
+      "size": "S",
+      "category": "Accessories",
+      "subcategory": "Belts",
+      "image": "https://www.ariat.com/dw/image/v2/AAML_PRD/on/demandware.static/-/Sites-ARIAT/default/dwb7f1f734/images/warm/10086719_front_warm.jpg?sw=1200&sh=1200",
+      "url": "https://www.ariat.com/P39930_W_ACC.html?dwvar_P39930__W__ACC_size=SML&dwvar_P39930__W__ACC_color=SADDLE_BROWN",
+      "retailer": "ariat.com",
       "variantLabel": "Colour",
       "variants": [],
       "availability": "available"
