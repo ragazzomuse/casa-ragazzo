@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-04",
-  "count": 52,
+  "count": 53,
   "items": [
     {
       "id": 3,
@@ -896,6 +896,22 @@
       "image": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/b5410fe2-8aef-4998-b434-1f67449577b3/M+NK+DF+SI+PRAC+MESH+5IN+AOP2.png",
       "url": "https://www.nike.com/t/standard-issue-mens-5-practice-mesh-basketball-shorts-6NCw8Y6w/IF2555-842",
       "retailer": "nike.com",
+      "variantLabel": "Colour",
+      "variants": [],
+      "availability": "available"
+    },
+    {
+      "id": 64,
+      "brand": "Diesel",
+      "title": "Cat-eye Style Sunglasses - Bronze",
+      "price": 223,
+      "currency": "USD",
+      "size": "63",
+      "category": "Accessories",
+      "subcategory": "Eyewear",
+      "image": "https://www.eye-oo.com/cdn/shop/files/d3814857ffb8711bc576ff30e00fbe52.jpg?v=1771621261&width=1946",
+      "url": "https://diesel.com/en-us/sunglasses/0dl3004u-brown/LX300400LEC0114Z.html",
+      "retailer": "diesel.com",
       "variantLabel": "Colour",
       "variants": [],
       "availability": "available"
