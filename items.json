@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-05",
-  "count": 53,
+  "count": 54,
   "items": [
     {
       "id": 3,
@@ -404,8 +404,7 @@
       "url": "https://mariafarro.com/collections/flip-flops/products/alexa-flip-flop-black-leather",
       "retailer": "mariafarro.com",
       "variantLabel": "Colour",
-      "variants": [],
-      "availability": "sold_out"
+      "variants": []
     },
     {
       "id": 12,
@@ -540,8 +539,7 @@
       "url": "https://www.prada.com/us/en/p/prada-cleo-printed-calf-hair-shoulder-bag/1BC312_2ZVG_F0G3Z_V_OOO",
       "retailer": "prada.com",
       "variantLabel": "Colour",
-      "variants": [],
-      "availability": "sold_out"
+      "variants": []
     },
     {
       "id": 28,
@@ -914,6 +912,22 @@
       "image": "https://diesel.com/dw/image/v2/BBLG_PRD/on/demandware.static/-/Sites-diesel-master-catalog/default/dw433b5ba8/images/large/X10926_P9398_T2224_E.jpg?q=80",
       "url": "https://diesel.com/en-us/top-handle-bags/d-one-tophandle-m-brown/X10926P9398T2224.html",
       "retailer": "diesel.com",
+      "variantLabel": "Colour",
+      "variants": [],
+      "availability": "available"
+    },
+    {
+      "id": 66,
+      "brand": "PLEASURES",
+      "title": "Studded Belt - Brown",
+      "price": 94,
+      "currency": "USD",
+      "size": "S/M",
+      "category": "Accessories",
+      "subcategory": "Belts",
+      "image": "https://cdn.shopify.com/s/files/1/0879/6548/files/BROWN.STUDDEDBELT.01_bf1c6083-a7d3-4be4-b086-93f13b8df1d6.jpg?v=1789078301",
+      "url": "https://pleasuresnow.com/products/pleasures-pleasures-studded-belt-brown-f26?variant=45394229886999",
+      "retailer": "pleasuresnow.com",
       "variantLabel": "Colour",
       "variants": [],
       "availability": "available"
