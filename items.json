@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-04",
-  "count": 50,
+  "count": 51,
   "items": [
     {
       "id": 3,
@@ -840,7 +840,7 @@
       "size": "One size",
       "category": "Bags",
       "subcategory": "Crossbody Bags",
-      "image": "https://academy.scene7.com/is/image/academy/21472696?$pdp-thumbnails-md-ng$",
+      "image": "https://academy.scene7.com/is/image/academy/21472696?$pdp-zoom$",
       "url": "https://www.academy.com/p/nike-tempo-waistpack?sku=black-silver",
       "retailer": "academy.com",
       "variantLabel": "Colour",
@@ -849,24 +849,39 @@
           "label": "Black/Silver",
           "price": 30,
           "images": [
-            "https://academy.scene7.com/is/image/academy/21472696?$pdp-thumbnails-md-ng$"
+            "https://academy.scene7.com/is/image/academy/21472696?$pdp-zoom$"
           ]
         },
         {
           "label": "Light Blue/Light Green",
           "price": 30,
           "images": [
-            "https://academy.scene7.com/is/image/academy/21735345?$pdp-thumbnails-md-ng$"
+            "https://academy.scene7.com/is/image/academy/21735345?$pdp-zoom$"
           ]
         },
         {
           "label": "Turquoise/White",
           "price": 30,
           "images": [
-            "https://academy.scene7.com/is/image/academy/21472698?$pdp-thumbnails-md-ng$"
+            "https://academy.scene7.com/is/image/academy/21472698?$pdp-zoom$"
           ]
         }
       ]
+    },
+    {
+      "id": 62,
+      "brand": "Nike",
+      "title": "Tempo Waistpack - Steam / Mineral Slate / White",
+      "price": 30,
+      "currency": "USD",
+      "size": "One size",
+      "category": "Bags",
+      "subcategory": "Crossbody Bags",
+      "image": "https://academy.scene7.com/is/image/academy/21630646?$pdp-zoom$",
+      "url": "https://www.academy.com/p/nike-tempo-waistpack-164153062",
+      "retailer": "academy.com",
+      "variantLabel": "Colour",
+      "variants": []
     }
   ]
 }
