@@ -404,7 +404,8 @@
       "url": "https://mariafarro.com/collections/flip-flops/products/alexa-flip-flop-black-leather",
       "retailer": "mariafarro.com",
       "variantLabel": "Colour",
-      "variants": []
+      "variants": [],
+      "availability": "sold_out"
     },
     {
       "id": 12,
@@ -539,7 +540,8 @@
       "url": "https://www.prada.com/us/en/p/prada-cleo-printed-calf-hair-shoulder-bag/1BC312_2ZVG_F0G3Z_V_OOO",
       "retailer": "prada.com",
       "variantLabel": "Colour",
-      "variants": []
+      "variants": [],
+      "availability": "sold_out"
     },
     {
       "id": 28,
