@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-06",
-  "count": 55,
+  "count": 56,
   "items": [
     {
       "id": 3,
@@ -945,6 +945,22 @@
       "image": "https://www.ariat.com/dw/image/v2/AAML_PRD/on/demandware.static/-/Sites-ARIAT/default/dwb7f1f734/images/warm/10086719_front_warm.jpg?sw=1200&sh=1200",
       "url": "https://www.ariat.com/P39930_W_ACC.html?dwvar_P39930__W__ACC_size=SML&dwvar_P39930__W__ACC_color=SADDLE_BROWN",
       "retailer": "ariat.com",
+      "variantLabel": "Colour",
+      "variants": [],
+      "availability": "available"
+    },
+    {
+      "id": 68,
+      "brand": "Dior",
+      "title": "Saddle Bag with Strap - Latte Grained Calfskin",
+      "price": 4700,
+      "currency": "USD",
+      "size": "",
+      "category": "Bags",
+      "subcategory": "Shoulder Bags",
+      "image": "https://assets.christiandior.com/is/image/diorprod/M0455CBAAM030_SBG_E01-1?$r4x5_raw$&crop=0,0,4000,5000&wid=1600&hei=2000&scale=1&bfc=on&qlt=80",
+      "url": "https://www.dior.com/en_us/fashion/products/M0455CBAA_M030",
+      "retailer": "dior.com",
       "variantLabel": "Colour",
       "variants": [],
       "availability": "available"
