@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-07",
-  "count": 59,
+  "count": 60,
   "items": [
     {
       "id": 11,
@@ -1012,6 +1012,22 @@
       "image": "https://img.ssensemedia.com/images/f_auto,c_limit,w_1920/262379M231000_1/marni-white-and-brown-fussbett-sabot-slip-on-loafers.jpg",
       "url": "https://www.ssense.com/en-us/men/product/marni/white-and-brown-fussbett-sabot-slip-on-loafers/19380151",
       "retailer": "ssense.com",
+      "variantLabel": "Colour",
+      "variants": [],
+      "availability": "available"
+    },
+    {
+      "id": 76,
+      "brand": "Abercrombie & Fitch",
+      "title": "Essential Ultra Baggy Open-Hem Sweatpant - Dark Heather Gray",
+      "price": 75,
+      "currency": "USD",
+      "size": "XS",
+      "category": "Clothing",
+      "subcategory": "Bottoms",
+      "image": "https://img.abercrombie.com/is/image/anf/KIC_134-6125-00183-132_prod1?wid=1500&hei=1929",
+      "url": "https://www.abercrombie.com/shop/us/p/essential-ultra-baggy-sweatpant-63199327?categoryId=6570710&faceout=model&seq=10&gridProductPosition=1",
+      "retailer": "abercrombie.com",
       "variantLabel": "Colour",
       "variants": [],
       "availability": "available"
