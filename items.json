@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-06",
-  "count": 56,
+  "count": 57,
   "items": [
     {
       "id": 3,
@@ -961,6 +961,22 @@
       "image": "https://assets.christiandior.com/is/image/diorprod/M0455CBAAM030_SBG_E01-1?$r4x5_raw$&crop=0,0,4000,5000&wid=1600&hei=2000&scale=1&bfc=on&qlt=80",
       "url": "https://www.dior.com/en_us/fashion/products/M0455CBAA_M030",
       "retailer": "dior.com",
+      "variantLabel": "Colour",
+      "variants": [],
+      "availability": "available"
+    },
+    {
+      "id": 71,
+      "brand": "N\u00e9cessaire",
+      "title": "The Body Essentials (3-Step) - Eucalyptus",
+      "price": 115,
+      "currency": "USD",
+      "size": "",
+      "category": "Beauty",
+      "subcategory": "Body & Bath",
+      "image": "https://necessaire.com/cdn/shop/files/01_TheBodyEssentials_Trio_EU_e179728f-8e1b-43a4-9eb8-8c4aa5dd515d.jpg?v=1758839169",
+      "url": "https://necessaire.com/products/the-body-essentials-3-step?variant=41626623115377",
+      "retailer": "necessaire.com",
       "variantLabel": "Colour",
       "variants": [],
       "availability": "available"
