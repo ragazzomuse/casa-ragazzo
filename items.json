@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-07",
-  "count": 60,
+  "count": 61,
   "items": [
     {
       "id": 11,
@@ -1030,6 +1030,86 @@
       "retailer": "abercrombie.com",
       "variantLabel": "Colour",
       "variants": [],
+      "availability": "available"
+    },
+    {
+      "id": 77,
+      "brand": "Abercrombie & Fitch",
+      "title": "Essential Straight Open-Hem Sweatpant",
+      "price": 45,
+      "currency": "USD",
+      "size": "XS Regular",
+      "category": "Clothing",
+      "subcategory": "Bottoms",
+      "image": "https://img.abercrombie.com/is/image/anf/KIC_134-6078-00164-900_prod1?wid=1500&hei=1929",
+      "url": "https://www.abercrombie.com/shop/us/p/essential-straight-open-hem-sweatpant-63199328?categoryId=6570710&faceout=model&seq=04&gridProductPosition=3",
+      "retailer": "abercrombie.com",
+      "variantLabel": "Colour",
+      "variants": [
+        {
+          "label": "Black",
+          "price": 60,
+          "images": [
+            "https://img.abercrombie.com/is/image/anf/KIC_134-6078-00164-900_prod1?wid=1500&hei=1929"
+          ]
+        },
+        {
+          "label": "Cool Gray",
+          "price": 75,
+          "images": [
+            "https://img.abercrombie.com/is/image/anf/KIC_134-6055-00162-136_prod1?wid=1500&hei=1929"
+          ]
+        },
+        {
+          "label": "Olive Wash",
+          "price": 56.25,
+          "images": [
+            "https://img.abercrombie.com/is/image/anf/KIC_134-6115-00166-303_prod1?wid=1500&hei=1929"
+          ]
+        },
+        {
+          "label": "Dark Brown",
+          "price": 60,
+          "images": [
+            "https://img.abercrombie.com/is/image/anf/KIC_134-6116-00167-420_prod1?wid=1500&hei=1929"
+          ]
+        },
+        {
+          "label": "Navy",
+          "price": 60,
+          "images": [
+            "https://img.abercrombie.com/is/image/anf/KIC_134-6092-00165-200_prod1?wid=1500&hei=1929"
+          ]
+        },
+        {
+          "label": "Dark Spruce",
+          "price": 60,
+          "images": [
+            "https://img.abercrombie.com/is/image/anf/KIC_134-6122-00174-300_prod1?wid=1500&hei=1929"
+          ]
+        },
+        {
+          "label": "Red",
+          "price": 45,
+          "images": [
+            "https://img.abercrombie.com/is/image/anf/KIC_134-6124-00178-500_prod1?wid=1500&hei=1929"
+          ]
+        },
+        {
+          "label": "Washed Black",
+          "price": 75,
+          "images": [
+            "https://img.abercrombie.com/is/image/anf/KIC_134-6121-00184-903_prod1?wid=1500&hei=1929"
+          ]
+        },
+        {
+          "label": "Fawn",
+          "price": 60,
+          "images": [
+            "https://img.abercrombie.com/is/image/anf/KIC_134-26000-00179-400_prod1?wid=1500&hei=1929"
+          ]
+        }
+      ],
       "availability": "available"
     }
   ]
