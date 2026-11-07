@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-06",
-  "count": 59,
+  "updated": "2026-11-07",
+  "count": 60,
   "items": [
     {
       "id": 3,
@@ -1009,6 +1009,22 @@
       "image": "https://www.fiorucci.com/cdn/shop/files/W26PFJTS028CJ22RD01_01.jpg?v=1778762506&width=1000",
       "url": "https://www.fiorucci.com/en-us/products/pf26-67-baby-t-shirt-womens-white?variant=57898520019289",
       "retailer": "fiorucci.com",
+      "variantLabel": "Colour",
+      "variants": [],
+      "availability": "available"
+    },
+    {
+      "id": 75,
+      "brand": "Marni",
+      "title": "White & Brown Fussbett Sabot Slip-on Loafers",
+      "price": 1195,
+      "currency": "USD",
+      "size": "41",
+      "category": "Footwear",
+      "subcategory": "Loafers & Mules",
+      "image": "https://img.ssensemedia.com/images/f_auto,c_limit,w_1920/262379M231000_1/marni-white-and-brown-fussbett-sabot-slip-on-loafers.jpg",
+      "url": "https://www.ssense.com/en-us/men/product/marni/white-and-brown-fussbett-sabot-slip-on-loafers/19380151",
+      "retailer": "ssense.com",
       "variantLabel": "Colour",
       "variants": [],
       "availability": "available"
