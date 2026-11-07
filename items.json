@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-07",
-  "count": 61,
+  "count": 62,
   "items": [
     {
       "id": 11,
@@ -1096,6 +1096,22 @@
           ]
         }
       ],
+      "availability": "available"
+    },
+    {
+      "id": 78,
+      "brand": "G-STAR",
+      "title": "Pleated Relaxed Straight Leg Chinos - Asfalt Gd",
+      "price": 180,
+      "currency": "USD",
+      "size": "28x30",
+      "category": "Clothing",
+      "subcategory": "Bottoms",
+      "image": "https://n.nordstrommedia.com/it/99577cee-4054-407c-a450-11e0b1ffef37.jpeg?w=1200&h=1800&crop=pad",
+      "url": "https://www.nordstrom.com/s/pleated-relaxed-straight-leg-chinos/8654032?origin=bag",
+      "retailer": "nordstrom.com",
+      "variantLabel": "Colour",
+      "variants": [],
       "availability": "available"
     }
   ]
