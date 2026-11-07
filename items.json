@@ -1,22 +1,7 @@
 {
   "updated": "2026-11-07",
-  "count": 60,
+  "count": 59,
   "items": [
-    {
-      "id": 3,
-      "brand": "3am Latte",
-      "title": "Complete Bundle",
-      "price": 84,
-      "currency": "USD",
-      "size": "M",
-      "category": "Clothing",
-      "subcategory": "Socks & Underwear",
-      "image": "https://www.3am-latte.com/cdn/shop/files/Complete_Bundle.png?v=1773630465&width=1070",
-      "url": "https://www.3am-latte.com/products/complete-bundle",
-      "retailer": "3am-latte.com",
-      "variantLabel": "Colour",
-      "variants": []
-    },
     {
       "id": 11,
       "brand": "Assembly New York",
