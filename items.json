@@ -196,7 +196,9 @@
       "url": "https://www.amazon.com/gp/product/B01HF3YRGM",
       "retailer": "amazon.com",
       "variantLabel": "Colour",
-      "variants": []
+      "variants": [],
+      "altUrl": "https://durangoboots.com/products/ddb0109?variant=52170432643253",
+      "altRetailer": "durangoboots.com"
     },
     {
       "id": 2,
