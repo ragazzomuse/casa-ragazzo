@@ -1036,7 +1036,7 @@
       "id": 77,
       "brand": "Abercrombie & Fitch",
       "title": "Essential Straight Open-Hem Sweatpant",
-      "price": 45,
+      "price": 60,
       "currency": "USD",
       "size": "XS Regular",
       "category": "Clothing",
@@ -1061,13 +1061,6 @@
           ]
         },
         {
-          "label": "Olive Wash",
-          "price": 56.25,
-          "images": [
-            "https://img.abercrombie.com/is/image/anf/KIC_134-6115-00166-303_prod1?wid=1500&hei=1929"
-          ]
-        },
-        {
           "label": "Dark Brown",
           "price": 60,
           "images": [
@@ -1086,13 +1079,6 @@
           "price": 60,
           "images": [
             "https://img.abercrombie.com/is/image/anf/KIC_134-6122-00174-300_prod1?wid=1500&hei=1929"
-          ]
-        },
-        {
-          "label": "Red",
-          "price": 45,
-          "images": [
-            "https://img.abercrombie.com/is/image/anf/KIC_134-6124-00178-500_prod1?wid=1500&hei=1929"
           ]
         },
         {
