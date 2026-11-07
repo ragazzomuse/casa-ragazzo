@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-06",
-  "count": 57,
+  "count": 59,
   "items": [
     {
       "id": 3,
@@ -977,6 +977,38 @@
       "image": "https://necessaire.com/cdn/shop/files/01_TheBodyEssentials_Trio_EU_e179728f-8e1b-43a4-9eb8-8c4aa5dd515d.jpg?v=1758839169",
       "url": "https://necessaire.com/products/the-body-essentials-3-step?variant=41626623115377",
       "retailer": "necessaire.com",
+      "variantLabel": "Colour",
+      "variants": [],
+      "availability": "available"
+    },
+    {
+      "id": 72,
+      "brand": "Fiorucci",
+      "title": "Cupid Baby T-Shirt - Beige",
+      "price": 200,
+      "currency": "USD",
+      "size": "L",
+      "category": "Clothing",
+      "subcategory": "Tees",
+      "image": "https://www.fiorucci.com/cdn/shop/files/W26PFJTS005CJ11NA02_1.jpg?v=1786976433&width=1000",
+      "url": "https://www.fiorucci.com/en-us/products/aw26-cupid-baby-t-shirt-womens-beige?variant=58778321682777",
+      "retailer": "fiorucci.com",
+      "variantLabel": "Colour",
+      "variants": [],
+      "availability": "available"
+    },
+    {
+      "id": 73,
+      "brand": "Fiorucci",
+      "title": "67 Baby T-Shirt - White",
+      "price": 265,
+      "currency": "USD",
+      "size": "L",
+      "category": "Clothing",
+      "subcategory": "Tees",
+      "image": "https://www.fiorucci.com/cdn/shop/files/W26PFJTS028CJ22RD01_01.jpg?v=1778762506&width=1000",
+      "url": "https://www.fiorucci.com/en-us/products/pf26-67-baby-t-shirt-womens-white?variant=57898520019289",
+      "retailer": "fiorucci.com",
       "variantLabel": "Colour",
       "variants": [],
       "availability": "available"
