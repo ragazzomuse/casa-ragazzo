@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-08",
-  "count": 70,
+  "count": 71,
   "items": [
     {
       "id": 11,
@@ -1237,6 +1237,22 @@
       "subcategory": "Sweatshirts",
       "image": "https://dtcralphlauren.scene7.com/is/image/PoloGSI/s7-AI710B28743002_lifestyle?wid=1200&hei=1500&fit=crop,1",
       "url": "https://www.ralphlauren.com/men-clothing-hoodies-sweatshirts/the-rl-fleece-relaxed-fit-sweatshirt/100102684.html?dwvar100102684_colorname=Polo%20Black&cgid=men-clothing-hoodies-sweatshirts",
+      "retailer": "ralphlauren.com",
+      "variantLabel": "Colour",
+      "variants": [],
+      "availability": "available"
+    },
+    {
+      "id": 87,
+      "brand": "Polo Ralph Lauren",
+      "title": "Leather Racing Jacket - Polo Black",
+      "price": 1298,
+      "currency": "USD",
+      "size": "S",
+      "category": "Clothing",
+      "subcategory": "Outerwear",
+      "image": "https://dtcralphlauren.scene7.com/is/image/PoloGSI/s7-AI710B24664001_lifestyle?wid=1200&hei=1500&fit=crop,1",
+      "url": "https://www.ralphlauren.com/men-clothing-jackets-coats-vests/leather-racing-jacket/0081305229.html",
       "retailer": "ralphlauren.com",
       "variantLabel": "Colour",
       "variants": [],
