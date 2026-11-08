@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-08",
-  "count": 67,
+  "count": 68,
   "items": [
     {
       "id": 11,
@@ -1189,6 +1189,22 @@
       "subcategory": "Sweatshirts",
       "image": "https://dtcralphlauren.scene7.com/is/image/PoloGSI/s7-AI710B28613001_alternate10?wid=1200&hei=1500&fit=crop,1",
       "url": "https://www.ralphlauren.com/men-clothing-hoodies-sweatshirts/relaxed-fit-big-pony-sweatshirt/100102375.html?cgid=men-clothing-hoodies-sweatshirts",
+      "retailer": "ralphlauren.com",
+      "variantLabel": "Colour",
+      "variants": [],
+      "availability": "available"
+    },
+    {
+      "id": 84,
+      "brand": "Polo Ralph Lauren",
+      "title": "Polo Bear Fleece Hoodie - Solar Sky Heritage Bear",
+      "price": 188,
+      "currency": "USD",
+      "size": "XS",
+      "category": "Clothing",
+      "subcategory": "Sweatshirts",
+      "image": "https://dtcralphlauren.scene7.com/is/image/PoloGSI/s7-AI710B27075002_lifestyle?wid=1200&hei=1500&fit=crop,1",
+      "url": "https://www.ralphlauren.com/men-clothing-hoodies-sweatshirts/polo-bear-fleece-hoodie/100103497.html?cgid=men-clothing-hoodies-sweatshirts",
       "retailer": "ralphlauren.com",
       "variantLabel": "Colour",
       "variants": [],
