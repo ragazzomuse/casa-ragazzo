@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-08",
-  "count": 63,
+  "count": 64,
   "items": [
     {
       "id": 11,
@@ -1125,6 +1125,22 @@
       "subcategory": "Sweatshirts",
       "image": "https://n.nordstrommedia.com/it/3a020aa5-f463-463f-8036-2d00e400af32.jpeg?w=1200&h=1800&crop=pad",
       "url": "https://www.nordstrom.com/s/x-fantastic-man-yes-graphic-sweatshirt/9056755?origin=keywordsearch-personalizedsort&breadcrumb=Home%2FAll+Results&color=44444GKRSC",
+      "retailer": "nordstrom.com",
+      "variantLabel": "Colour",
+      "variants": [],
+      "availability": "available"
+    },
+    {
+      "id": 80,
+      "brand": "LUFIAN",
+      "title": "Moy Men's Goose Down Puffer Jacket - Green",
+      "price": 322,
+      "currency": "USD",
+      "size": "XS",
+      "category": "Clothing",
+      "subcategory": "Outerwear",
+      "image": "https://n.nordstrommedia.com/it/c796c7a8-48be-435b-9423-c46b6254534e.jpeg?w=1200&h=1800&crop=pad",
+      "url": "https://www.nordstrom.com/s/lufian-moy-mens-goose-down-puffer-jacke/2236553?origin=keywordsearch-personalizedsort&breadcrumb=Home%2FAll+Results&color=44444HC9H6",
       "retailer": "nordstrom.com",
       "variantLabel": "Colour",
       "variants": [],
