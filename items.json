@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-08",
-  "count": 69,
+  "count": 70,
   "items": [
     {
       "id": 11,
@@ -1221,6 +1221,22 @@
       "subcategory": "Sweatshirts",
       "image": "https://dtcralphlauren.scene7.com/is/image/PoloGSI/s7-AI710B33512001_lifestyle?wid=1200&hei=1500&fit=crop,1",
       "url": "https://www.ralphlauren.com/men-clothing-hoodies-sweatshirts/polo-bear-fleece-sweatshirt/100111040.html?cgid=men-clothing-hoodies-sweatshirts",
+      "retailer": "ralphlauren.com",
+      "variantLabel": "Colour",
+      "variants": [],
+      "availability": "available"
+    },
+    {
+      "id": 86,
+      "brand": "Polo Ralph Lauren",
+      "title": "The RL Fleece Relaxed Fit Sweatshirt - Polo Black",
+      "price": 150,
+      "currency": "USD",
+      "size": "XS",
+      "category": "Clothing",
+      "subcategory": "Sweatshirts",
+      "image": "https://dtcralphlauren.scene7.com/is/image/PoloGSI/s7-AI710B28743002_lifestyle?wid=1200&hei=1500&fit=crop,1",
+      "url": "https://www.ralphlauren.com/men-clothing-hoodies-sweatshirts/the-rl-fleece-relaxed-fit-sweatshirt/100102684.html?dwvar100102684_colorname=Polo%20Black&cgid=men-clothing-hoodies-sweatshirts",
       "retailer": "ralphlauren.com",
       "variantLabel": "Colour",
       "variants": [],
