@@ -52,7 +52,7 @@
       "id": 47,
       "brand": "Blomus",
       "title": "Basic Dessert Bowl",
-      "price": 27,
+      "price": 33,
       "currency": "USD",
       "size": "",
       "category": "Home",
@@ -64,14 +64,14 @@
       "variants": [
         {
           "label": "7 oz - 2.17 in H x 3.15 in W",
-          "price": 27,
+          "price": 33,
           "images": [
             "https://assets.wfcdn.com/im/64921105/resize-h1600-w1600%5Ecompr-r85/4400/440064673/Basic+Dessert+Bowl.jpg"
           ]
         },
         {
           "label": "8 oz - 1.58 in H x 3.9 in W",
-          "price": 34,
+          "price": 35,
           "images": [
             "https://assets.wfcdn.com/im/87957913/resize-h1600-w1600%5Ecompr-r85/4400/440063836/Basic+Dessert+Bowl.jpg"
           ]
@@ -296,7 +296,7 @@
         },
         {
           "label": "Tweed green",
-          "price": 19,
+          "price": 31,
           "images": [
             "https://content.gapinc.com/b/0061/643/039/cn61643039.png?width=1209"
           ]
@@ -413,7 +413,7 @@
       "id": 43,
       "brand": "MISBHV",
       "title": "Gray Sport T-shirt",
-      "price": 90,
+      "price": 82,
       "currency": "USD",
       "size": "XS-S",
       "category": "Clothing",
