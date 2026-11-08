@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-08",
-  "count": 72,
+  "count": 76,
   "items": [
     {
       "id": 11,
@@ -1273,6 +1273,70 @@
       "variantLabel": "Colour",
       "variants": [],
       "availability": "available"
+    },
+    {
+      "id": 89,
+      "brand": "ANTE BERLIN",
+      "title": "Elite Shorts - Steel Grey",
+      "price": 170,
+      "currency": "USD",
+      "size": "S",
+      "category": "Clothing",
+      "subcategory": "Bottoms",
+      "image": "https://cdn.shopify.com/s/files/1/0549/4885/6049/files/ECOMM_LAYOUT_07d0517c-e3fd-4a77-80a9-f259262678af.jpg?v=1759914390&width=1200",
+      "url": "https://anteberlin.com/collections/bottoms/products/elite-shorts-steelgrey",
+      "retailer": "anteberlin.com",
+      "variantLabel": "Colour",
+      "variants": [],
+      "availability": "sold_out"
+    },
+    {
+      "id": 90,
+      "brand": "ANTE BERLIN",
+      "title": "Elite Shorts - Deep Black",
+      "price": 170,
+      "currency": "USD",
+      "size": "S",
+      "category": "Clothing",
+      "subcategory": "Bottoms",
+      "image": "https://cdn.shopify.com/s/files/1/0549/4885/6049/files/blackshortsfront.jpg?v=1771351513&width=1200",
+      "url": "https://anteberlin.com/collections/bottoms/products/elite-shorts",
+      "retailer": "anteberlin.com",
+      "variantLabel": "Colour",
+      "variants": [],
+      "availability": "sold_out"
+    },
+    {
+      "id": 91,
+      "brand": "ANTE BERLIN",
+      "title": "Elite Singlet - Steel Grey",
+      "price": 125,
+      "currency": "USD",
+      "size": "S",
+      "category": "Clothing",
+      "subcategory": "Tanks",
+      "image": "https://cdn.shopify.com/s/files/1/0549/4885/6049/files/ECOMM_LAYOUT-01_9078a330-a690-48a6-9cd5-475e96a1fa0c.jpg?v=1759914510&width=1200",
+      "url": "https://anteberlin.com/collections/performance/products/elite-singlet-steelgrey",
+      "retailer": "anteberlin.com",
+      "variantLabel": "Colour",
+      "variants": [],
+      "availability": "sold_out"
+    },
+    {
+      "id": 92,
+      "brand": "ANTE BERLIN",
+      "title": "Elite Singlet - Deep Black",
+      "price": 125,
+      "currency": "USD",
+      "size": "S",
+      "category": "Clothing",
+      "subcategory": "Tanks",
+      "image": "https://cdn.shopify.com/s/files/1/0549/4885/6049/files/blacksingletfront.jpg?v=1771351448&width=1200",
+      "url": "https://anteberlin.com/collections/performance/products/elite-singlet",
+      "retailer": "anteberlin.com",
+      "variantLabel": "Colour",
+      "variants": [],
+      "availability": "sold_out"
     }
   ]
 }
