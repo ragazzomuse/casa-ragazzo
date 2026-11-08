@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-08",
-  "count": 71,
+  "count": 72,
   "items": [
     {
       "id": 11,
@@ -1254,6 +1254,22 @@
       "image": "https://dtcralphlauren.scene7.com/is/image/PoloGSI/s7-AI710B24664001_lifestyle?wid=1200&hei=1500&fit=crop,1",
       "url": "https://www.ralphlauren.com/men-clothing-jackets-coats-vests/leather-racing-jacket/0081305229.html",
       "retailer": "ralphlauren.com",
+      "variantLabel": "Colour",
+      "variants": [],
+      "availability": "available"
+    },
+    {
+      "id": 88,
+      "brand": "Polo Ralph Lauren",
+      "title": "Camo Fleece Jacket - Multi",
+      "price": 298,
+      "currency": "USD",
+      "size": "S",
+      "category": "Clothing",
+      "subcategory": "Outerwear",
+      "image": "https://n.nordstrommedia.com/it/c76b8271-8928-48b1-a2b5-c4471b4c00c4.jpeg?w=1200&h=1800&crop=pad",
+      "url": "https://www.nordstrom.com/s/polo-ralph-lauren-vintage-poly-fleece-knt-long-s/9277073?origin=keywordsearch-personalizedsort&breadcrumb=Home%2FAll+Results&color=44444H5A8A",
+      "retailer": "nordstrom.com",
       "variantLabel": "Colour",
       "variants": [],
       "availability": "available"
