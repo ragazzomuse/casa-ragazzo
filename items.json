@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-08",
-  "count": 64,
+  "count": 65,
   "items": [
     {
       "id": 11,
@@ -1142,6 +1142,22 @@
       "image": "https://n.nordstrommedia.com/it/c796c7a8-48be-435b-9423-c46b6254534e.jpeg?w=1200&h=1800&crop=pad",
       "url": "https://www.nordstrom.com/s/lufian-moy-mens-goose-down-puffer-jacke/2236553?origin=keywordsearch-personalizedsort&breadcrumb=Home%2FAll+Results&color=44444HC9H6",
       "retailer": "nordstrom.com",
+      "variantLabel": "Colour",
+      "variants": [],
+      "availability": "available"
+    },
+    {
+      "id": 81,
+      "brand": "Polo Ralph Lauren",
+      "title": "Whitman Relaxed Fit Corduroy Pant - Golden Brown",
+      "price": 198,
+      "currency": "USD",
+      "size": "28x30",
+      "category": "Clothing",
+      "subcategory": "Bottoms",
+      "image": "https://dtcralphlauren.scene7.com/is/image/PoloGSI/s7-1450294_lifestyle?wid=1200&hei=1500&fit=crop,1",
+      "url": "https://www.ralphlauren.com/men-clothing-pants/whitman-relaxed-fit-corduroy-pant/0045914231.html",
+      "retailer": "ralphlauren.com",
       "variantLabel": "Colour",
       "variants": [],
       "availability": "available"
