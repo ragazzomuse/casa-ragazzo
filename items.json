@@ -52,7 +52,7 @@
       "id": 47,
       "brand": "Blomus",
       "title": "Basic Dessert Bowl",
-      "price": 33,
+      "price": 27,
       "currency": "USD",
       "size": "",
       "category": "Home",
@@ -64,7 +64,7 @@
       "variants": [
         {
           "label": "7 oz - 2.17 in H x 3.15 in W",
-          "price": 33,
+          "price": 27,
           "images": [
             "https://assets.wfcdn.com/im/64921105/resize-h1600-w1600%5Ecompr-r85/4400/440064673/Basic+Dessert+Bowl.jpg"
           ]
@@ -794,7 +794,7 @@
       "id": 57,
       "brand": "Satisfy",
       "title": "Brown MothTech Muscle Tank Top",
-      "price": 145,
+      "price": 140,
       "currency": "USD",
       "size": "XS",
       "category": "Clothing",
@@ -1176,7 +1176,7 @@
       "retailer": "ralphlauren.com",
       "variantLabel": "Colour",
       "variants": [],
-      "availability": "available"
+      "availability": "sold_out"
     },
     {
       "id": 83,
@@ -1352,7 +1352,7 @@
       "retailer": "ralphlauren.com",
       "variantLabel": "Colour",
       "variants": [],
-      "availability": "available"
+      "availability": "sold_out"
     }
   ]
 }
