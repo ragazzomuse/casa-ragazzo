@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-09",
-  "count": 77,
+  "count": 78,
   "items": [
     {
       "id": 11,
@@ -1353,6 +1353,22 @@
       "variantLabel": "Colour",
       "variants": [],
       "availability": "sold_out"
+    },
+    {
+      "id": 94,
+      "brand": "Dior",
+      "title": "Large Dior Book Tote - Yellow and Red Book Cover Embroidery",
+      "price": 3700,
+      "currency": "USD",
+      "size": "",
+      "category": "Bags",
+      "subcategory": "Totes",
+      "image": "https://assets.christiandior.com/is/image/diorprod/1BTSH295JAAH20E_SBG_E01-2?$r4x5_raw$&crop=0,0,4000,5000&wid=1600&hei=2000&scale=1&bfc=on&qlt=80",
+      "url": "https://www.dior.com/en_us/fashion/products/1BTSH295JAA_H20E",
+      "retailer": "dior.com",
+      "variantLabel": "Colour",
+      "variants": [],
+      "availability": "available"
     }
   ]
 }
