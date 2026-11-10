@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "count": 78,
   "items": [
     {
@@ -76,7 +76,8 @@
             "https://assets.wfcdn.com/im/87957913/resize-h1600-w1600%5Ecompr-r85/4400/440063836/Basic+Dessert+Bowl.jpg"
           ]
         }
-      ]
+      ],
+      "availability": "sold_out"
     },
     {
       "id": 40,
@@ -719,7 +720,7 @@
       "id": 44,
       "brand": "Von Dutch",
       "title": "I.AM.GIA x Von Dutch Faux Shearling Boot",
-      "price": 139,
+      "price": 97,
       "currency": "USD",
       "size": "41",
       "category": "Footwear",
