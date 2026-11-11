@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "count": 78,
   "items": [
     {
@@ -338,7 +338,7 @@
       "id": 16,
       "brand": "Krys Vinczi",
       "title": "Blueprint Knit T-Shirt",
-      "price": 125,
+      "price": 124,
       "currency": "USD",
       "size": "Small",
       "category": "Clothing",
@@ -669,7 +669,7 @@
       "id": 4,
       "brand": "The Citizenry",
       "title": "Stonewashed Linen Sheet Set",
-      "price": 399,
+      "price": 299,
       "currency": "USD",
       "size": "King",
       "category": "Home",
@@ -804,7 +804,8 @@
       "url": "https://www.ssense.com/en-us/men/product/satisfy/brown-mothtech-muscle-tank-top/19506031",
       "retailer": "ssense.com",
       "variantLabel": "Colour",
-      "variants": []
+      "variants": [],
+      "availability": "sold_out"
     },
     {
       "id": 58,
@@ -1031,7 +1032,7 @@
       "retailer": "abercrombie.com",
       "variantLabel": "Colour",
       "variants": [],
-      "availability": "available"
+      "availability": "sold_out"
     },
     {
       "id": 77,
@@ -1097,7 +1098,7 @@
           ]
         }
       ],
-      "availability": "available"
+      "availability": "sold_out"
     },
     {
       "id": 78,
