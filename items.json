@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-12",
-  "count": 78,
+  "count": 79,
   "items": [
     {
       "id": 11,
@@ -1370,6 +1370,22 @@
       "image": "https://assets.christiandior.com/is/image/diorprod/1BTSH295JAAH20E_SBG_E01-2?$r4x5_raw$&crop=0,0,4000,5000&wid=1600&hei=2000&scale=1&bfc=on&qlt=80",
       "url": "https://www.dior.com/en_us/fashion/products/1BTSH295JAA_H20E",
       "retailer": "dior.com",
+      "variantLabel": "Colour",
+      "variants": [],
+      "availability": "available"
+    },
+    {
+      "id": 95,
+      "brand": "A24",
+      "title": "Texas!",
+      "price": 50,
+      "currency": "USD",
+      "size": "",
+      "category": "Other",
+      "subcategory": "Books & Media",
+      "image": "https://cdn.shopify.com/s/files/1/0023/3789/8540/files/20220812_A24_Florida_book_24751x1gray.jpg?v=1761005047&width=1200",
+      "url": "https://shop.a24films.com/products/texas",
+      "retailer": "shop.a24films.com",
       "variantLabel": "Colour",
       "variants": [],
       "availability": "available"
