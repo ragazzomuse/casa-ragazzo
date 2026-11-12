@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11",
+  "updated": "2026-11-12",
   "count": 78,
   "items": [
     {
@@ -92,13 +92,14 @@
       "url": "https://www.bottegaveneta.com/en-us/veneta-pickle-856737V66V03292.html",
       "retailer": "bottegaveneta.com",
       "variantLabel": "Colour",
-      "variants": []
+      "variants": [],
+      "availability": "sold_out"
     },
     {
       "id": 26,
       "brand": "CB2",
       "title": "Journey Terracotta Red Velvet Stool",
-      "price": 299,
+      "price": 319,
       "currency": "USD",
       "size": "",
       "category": "Home",
@@ -214,7 +215,8 @@
       "url": "https://fermliving.us/products/haze-wall-cabinet-reeded-glass-brushed-stainless-steel",
       "retailer": "fermliving.us",
       "variantLabel": "Colour",
-      "variants": []
+      "variants": [],
+      "availability": "sold_out"
     },
     {
       "id": 1,
@@ -297,7 +299,7 @@
         },
         {
           "label": "Tweed green",
-          "price": 31,
+          "price": 23,
           "images": [
             "https://content.gapinc.com/b/0061/643/039/cn61643039.png?width=1209"
           ]
@@ -1258,7 +1260,7 @@
       "retailer": "ralphlauren.com",
       "variantLabel": "Colour",
       "variants": [],
-      "availability": "available"
+      "availability": "sold_out"
     },
     {
       "id": 88,
