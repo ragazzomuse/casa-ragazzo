@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-13",
-  "count": 79,
+  "count": 78,
   "items": [
     {
       "id": 11,
@@ -409,21 +409,6 @@
       "image": "https://mariafarro.com/cdn/shop/products/MF_LIZ-FLIPFLOP-BROWN-1_300x300.jpg?v=1772602274",
       "url": "https://mariafarro.com/products/lex-flip-flop-dark-brown",
       "retailer": "mariafarro.com",
-      "variantLabel": "Colour",
-      "variants": []
-    },
-    {
-      "id": 43,
-      "brand": "MISBHV",
-      "title": "Gray Sport T-shirt",
-      "price": 76,
-      "currency": "USD",
-      "size": "XS-S",
-      "category": "Clothing",
-      "subcategory": "Tees",
-      "image": "https://img.ssensemedia.com/images/f_auto,c_limit,w_1920/242937M205004_1/misbhv-gray-sport-t-shirt.jpg",
-      "url": "https://www.ssense.com/en-us/men/product/misbhv/gray-sport-t-shirt/16413701",
-      "retailer": "ssense.com",
       "variantLabel": "Colour",
       "variants": []
     },
@@ -958,7 +943,7 @@
     },
     {
       "id": 71,
-      "brand": "Nécessaire",
+      "brand": "N\u00e9cessaire",
       "title": "The Body Essentials (3-Step) - Eucalyptus",
       "price": 115,
       "currency": "USD",
