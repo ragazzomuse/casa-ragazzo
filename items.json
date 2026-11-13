@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12",
+  "updated": "2026-11-13",
   "count": 79,
   "items": [
     {
@@ -37,7 +37,7 @@
       "id": 17,
       "brand": "Birkenstock",
       "title": "Boston Suede Leather - Snake Oyster",
-      "price": 154.95,
+      "price": 116.21,
       "currency": "USD",
       "size": "Regular 8-8.5",
       "category": "Footwear",
@@ -252,7 +252,7 @@
       "id": 38,
       "brand": "Gap",
       "title": "Adult Heavyweight Crop T-Shirt",
-      "price": 19,
+      "price": 23,
       "currency": "USD",
       "size": "XS",
       "category": "Clothing",
@@ -292,7 +292,7 @@
         },
         {
           "label": "Vintage navy",
-          "price": 19,
+          "price": 23,
           "images": [
             "https://content.gapinc.com/b/0061/873/921/cn61873921.png?width=1209"
           ]
@@ -416,7 +416,7 @@
       "id": 43,
       "brand": "MISBHV",
       "title": "Gray Sport T-shirt",
-      "price": 82,
+      "price": 76,
       "currency": "USD",
       "size": "XS-S",
       "category": "Clothing",
@@ -958,7 +958,7 @@
     },
     {
       "id": 71,
-      "brand": "N\u00e9cessaire",
+      "brand": "Nécessaire",
       "title": "The Body Essentials (3-Step) - Eucalyptus",
       "price": 115,
       "currency": "USD",
@@ -1259,8 +1259,7 @@
       "url": "https://www.ralphlauren.com/men-clothing-jackets-coats-vests/leather-racing-jacket/0081305229.html",
       "retailer": "ralphlauren.com",
       "variantLabel": "Colour",
-      "variants": [],
-      "availability": "sold_out"
+      "variants": []
     },
     {
       "id": 88,
