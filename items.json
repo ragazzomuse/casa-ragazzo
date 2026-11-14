@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-14",
-  "count": 81,
+  "count": 82,
   "items": [
     {
       "id": 11,
@@ -1422,6 +1422,23 @@
       "variantLabel": "Colour",
       "variants": [],
       "availability": "available"
+    },
+    {
+      "id": 99,
+      "brand": "Maison Margiela",
+      "title": "Zip Jacket - Brown",
+      "price": 830,
+      "currency": "USD",
+      "size": "46/S",
+      "category": "Clothing",
+      "subcategory": "Outerwear",
+      "image": "https://cdn-images.farfetch-contents.com/34/42/40/65/34424065_65531636_1000.jpg",
+      "url": "https://www.farfetch.com/shopping/men/maison-margiela-zip-jacket-item-34424065.aspx",
+      "retailer": "farfetch.com",
+      "variantLabel": "Colour",
+      "variants": [],
+      "availability": "available",
+      "imageContain": true
     }
   ]
 }
