@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13",
+  "updated": "2026-11-14",
   "count": 78,
   "items": [
     {
@@ -31,7 +31,7 @@
       "retailer": "benjaminedgar.com",
       "variantLabel": "Colour",
       "variants": [],
-      "availability": "sold_out"
+      "availability": "available"
     },
     {
       "id": 17,
@@ -168,7 +168,8 @@
       "url": "https://www.ssense.com/en-us/men/product/diesel/navy-t-urho-tank-top/19634191",
       "retailer": "ssense.com",
       "variantLabel": "Colour",
-      "variants": []
+      "variants": [],
+      "availability": "sold_out"
     },
     {
       "id": 25,
@@ -264,28 +265,28 @@
       "variants": [
         {
           "label": "Navy Stripe",
-          "price": 24,
+          "price": 29,
           "images": [
             "https://content.gapinc.com/b/0062/843/885/cn62843885.png?width=1209"
           ]
         },
         {
           "label": "Khaki tan leaf print",
-          "price": 24,
+          "price": 29,
           "images": [
             "https://content.gapinc.com/b/0063/790/757/cn63790757.png?width=1209"
           ]
         },
         {
           "label": "Green Stripe",
-          "price": 24,
+          "price": 29,
           "images": [
             "https://content.gapinc.com/b/0062/843/892/cn62843892.png?width=1209"
           ]
         },
         {
           "label": "Grey heather",
-          "price": 22,
+          "price": 26,
           "images": [
             "https://content.gapinc.com/b/0062/816/857/cn62816857.png?width=1209"
           ]
@@ -340,7 +341,7 @@
       "id": 16,
       "brand": "Krys Vinczi",
       "title": "Blueprint Knit T-Shirt",
-      "price": 124,
+      "price": 123,
       "currency": "USD",
       "size": "Small",
       "category": "Clothing",
@@ -401,7 +402,7 @@
       "id": 12,
       "brand": "Maria Farro",
       "title": "LEX Flip Flop - Dark Brown",
-      "price": 156,
+      "price": 150,
       "currency": "USD",
       "size": "41",
       "category": "Footwear",
@@ -641,7 +642,7 @@
       "id": 29,
       "brand": "Studio A Home",
       "title": "Saddle Table - Natural Iron",
-      "price": 787.85,
+      "price": 787.07,
       "currency": "USD",
       "size": "",
       "category": "Home",
@@ -865,7 +866,7 @@
       "id": 63,
       "brand": "Nike",
       "title": "Standard Issue Men's 5\" Practice Mesh Basketball Shorts - Turf Orange/Pale Ivory",
-      "price": 39.97,
+      "price": 52.97,
       "currency": "USD",
       "size": "XS",
       "category": "Clothing",
