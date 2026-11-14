@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-14",
-  "count": 82,
+  "count": 84,
   "items": [
     {
       "id": 11,
@@ -1435,6 +1435,40 @@
       "image": "https://cdn-images.farfetch-contents.com/34/42/40/65/34424065_65531636_1000.jpg",
       "url": "https://www.farfetch.com/shopping/men/maison-margiela-zip-jacket-item-34424065.aspx",
       "retailer": "farfetch.com",
+      "variantLabel": "Colour",
+      "variants": [],
+      "availability": "available",
+      "imageContain": true
+    },
+    {
+      "id": 100,
+      "brand": "Diptyque",
+      "title": "Menthe Verte (Spearmint) Classic Candle",
+      "price": 90,
+      "currency": "USD",
+      "size": "190g",
+      "category": "Home",
+      "subcategory": "Decor",
+      "image": "https://cdn.shopify.com/s/files/1/0991/4784/1850/files/diptyque-mentheverteclassiccandle-MV2-front.webp?v=1781571444&width=1200",
+      "url": "https://us.diptyqueparis.com/en-us/products/classic-candle-menthe-verte-spearmint-mv2",
+      "retailer": "us.diptyqueparis.com",
+      "variantLabel": "Colour",
+      "variants": [],
+      "availability": "available",
+      "imageContain": true
+    },
+    {
+      "id": 101,
+      "brand": "Diptyque",
+      "title": "Eucalyptus Classic Candle",
+      "price": 90,
+      "currency": "USD",
+      "size": "190g",
+      "category": "Home",
+      "subcategory": "Decor",
+      "image": "https://cdn.shopify.com/s/files/1/0991/4784/1850/files/diptyque-eucalyptusclassiccandle-EU2-front.webp?v=1781571444&width=1200",
+      "url": "https://us.diptyqueparis.com/en-us/products/classic-candle-eucalyptus-eu2",
+      "retailer": "us.diptyqueparis.com",
       "variantLabel": "Colour",
       "variants": [],
       "availability": "available",
