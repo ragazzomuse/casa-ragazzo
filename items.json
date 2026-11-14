@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-14",
-  "count": 78,
+  "count": 81,
   "items": [
     {
       "id": 11,
@@ -1371,6 +1371,54 @@
       "image": "https://cdn.shopify.com/s/files/1/0023/3789/8540/files/20220812_A24_Florida_book_24751x1gray.jpg?v=1761005047&width=1200",
       "url": "https://shop.a24films.com/products/texas",
       "retailer": "shop.a24films.com",
+      "variantLabel": "Colour",
+      "variants": [],
+      "availability": "available"
+    },
+    {
+      "id": 96,
+      "brand": "Telfar",
+      "title": "Leopard Baby T - Brown",
+      "price": 110,
+      "currency": "USD",
+      "size": "M",
+      "category": "Clothing",
+      "subcategory": "Tees",
+      "image": "https://cdn.shopify.com/s/files/1/0880/7204/files/LEOPARD-BABY-T-BROWN-FRONT.jpg?v=1790185510&width=1200",
+      "url": "https://telfar.net/collections/newfw26-four/products/leopard-baby-t-brown",
+      "retailer": "telfar.net",
+      "variantLabel": "Colour",
+      "variants": [],
+      "availability": "available"
+    },
+    {
+      "id": 97,
+      "brand": "Telfar",
+      "title": "Snake LS T-Shirt W/ Infinity Thumbhole - Tan",
+      "price": 170,
+      "currency": "USD",
+      "size": "M",
+      "category": "Clothing",
+      "subcategory": "Tees",
+      "image": "https://cdn.shopify.com/s/files/1/0880/7204/files/TELFAR-SNAKE-LS-T-SHIRT-W-INFINITY-THUMBHOLE-TAN-FRONT.jpg?v=1791996316&width=1200",
+      "url": "https://telfar.net/collections/newfw26-five/products/snake-ls-t-shirt-w-infinity-thumbhole-tan",
+      "retailer": "telfar.net",
+      "variantLabel": "Colour",
+      "variants": [],
+      "availability": "available"
+    },
+    {
+      "id": 98,
+      "brand": "Telfar",
+      "title": "Snake Long Sleeve Button Down - Grey",
+      "price": 220,
+      "currency": "USD",
+      "size": "XS",
+      "category": "Clothing",
+      "subcategory": "Shirts",
+      "image": "https://cdn.shopify.com/s/files/1/0880/7204/files/SNAKE-LONG-SLEEVE-BUTTON-DOWN-GREY-FRONT.jpg?v=1790185448",
+      "url": "https://telfar.net/collections/newfw26-four/products/snake-long-sleeve-button-down-grey",
+      "retailer": "telfar.net",
       "variantLabel": "Colour",
       "variants": [],
       "availability": "available"
