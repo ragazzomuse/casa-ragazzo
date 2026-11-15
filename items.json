@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14",
+  "updated": "2026-11-15",
   "count": 84,
   "items": [
     {
@@ -341,7 +341,7 @@
       "id": 16,
       "brand": "Krys Vinczi",
       "title": "Blueprint Knit T-Shirt",
-      "price": 123,
+      "price": 100,
       "currency": "USD",
       "size": "Small",
       "category": "Clothing",
@@ -944,7 +944,7 @@
     },
     {
       "id": 71,
-      "brand": "N\u00e9cessaire",
+      "brand": "Nécessaire",
       "title": "The Body Essentials (3-Step) - Eucalyptus",
       "price": 115,
       "currency": "USD",
@@ -1245,7 +1245,8 @@
       "url": "https://www.ralphlauren.com/men-clothing-jackets-coats-vests/leather-racing-jacket/0081305229.html",
       "retailer": "ralphlauren.com",
       "variantLabel": "Colour",
-      "variants": []
+      "variants": [],
+      "availability": "sold_out"
     },
     {
       "id": 88,
@@ -1267,7 +1268,7 @@
       "id": 89,
       "brand": "ANTE BERLIN",
       "title": "Elite Shorts - Steel Grey",
-      "price": 170,
+      "price": 169,
       "currency": "USD",
       "size": "S",
       "category": "Clothing",
@@ -1283,7 +1284,7 @@
       "id": 90,
       "brand": "ANTE BERLIN",
       "title": "Elite Shorts - Deep Black",
-      "price": 170,
+      "price": 169,
       "currency": "USD",
       "size": "S",
       "category": "Clothing",
@@ -1299,7 +1300,7 @@
       "id": 91,
       "brand": "ANTE BERLIN",
       "title": "Elite Singlet - Steel Grey",
-      "price": 125,
+      "price": 123,
       "currency": "USD",
       "size": "S",
       "category": "Clothing",
@@ -1315,7 +1316,7 @@
       "id": 92,
       "brand": "ANTE BERLIN",
       "title": "Elite Singlet - Deep Black",
-      "price": 125,
+      "price": 123,
       "currency": "USD",
       "size": "S",
       "category": "Clothing",
