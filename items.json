@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-16",
-  "count": 84,
+  "count": 83,
   "items": [
     {
       "id": 11,
@@ -796,21 +796,6 @@
       "availability": "sold_out"
     },
     {
-      "id": 58,
-      "brand": "Le Creuset",
-      "title": "Enameled-Steel Stockpot - Sea Salt",
-      "price": 119,
-      "currency": "USD",
-      "size": "6 Qt",
-      "category": "Home",
-      "subcategory": "Kitchen & Dining",
-      "image": "https://assets.wsimgs.com/wsimgs/ab/images/dp/wcm/202635/0034/img36j.jpg",
-      "url": "https://www.williams-sonoma.com/products/le-creuset-stock-pot-ss-knob/?sku=5158724",
-      "retailer": "williams-sonoma.com",
-      "variantLabel": "Colour",
-      "variants": []
-    },
-    {
       "id": 61,
       "brand": "Nike",
       "title": "Tempo Waistpack",
@@ -944,7 +929,7 @@
     },
     {
       "id": 71,
-      "brand": "Nécessaire",
+      "brand": "N\u00e9cessaire",
       "title": "The Body Essentials (3-Step) - Eucalyptus",
       "price": 115,
       "currency": "USD",
