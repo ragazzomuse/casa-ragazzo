@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "count": 84,
   "items": [
     {
@@ -642,7 +642,7 @@
       "id": 29,
       "brand": "Studio A Home",
       "title": "Saddle Table - Natural Iron",
-      "price": 787.07,
+      "price": 787.85,
       "currency": "USD",
       "size": "",
       "category": "Home",
@@ -994,7 +994,7 @@
       "id": 75,
       "brand": "Marni",
       "title": "White & Brown Fussbett Sabot Slip-on Loafers",
-      "price": 1195,
+      "price": 609,
       "currency": "USD",
       "size": "41",
       "category": "Footwear",
@@ -1268,7 +1268,7 @@
       "id": 89,
       "brand": "ANTE BERLIN",
       "title": "Elite Shorts - Steel Grey",
-      "price": 169,
+      "price": 168,
       "currency": "USD",
       "size": "S",
       "category": "Clothing",
@@ -1284,7 +1284,7 @@
       "id": 90,
       "brand": "ANTE BERLIN",
       "title": "Elite Shorts - Deep Black",
-      "price": 169,
+      "price": 168,
       "currency": "USD",
       "size": "S",
       "category": "Clothing",
