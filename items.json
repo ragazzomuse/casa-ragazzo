@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-17",
-  "count": 84,
+  "count": 83,
   "items": [
     {
       "id": 11,
@@ -1455,23 +1455,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0991/4784/1850/files/diptyque-eucalyptusclassiccandle-EU2-front.webp?v=1781571444&width=1200",
       "url": "https://us.diptyqueparis.com/en-us/products/classic-candle-eucalyptus-eu2",
       "retailer": "us.diptyqueparis.com",
-      "variantLabel": "Colour",
-      "variants": [],
-      "availability": "available",
-      "imageContain": true
-    },
-    {
-      "id": 103,
-      "brand": "Apple",
-      "title": "Mac mini (M6)",
-      "price": 799,
-      "currency": "USD",
-      "size": "M6 \u00b7 16GB \u00b7 256GB",
-      "category": "Other",
-      "subcategory": "Tech & Gadgets",
-      "image": "https://www.apple.com/v/mac-mini/ab/images/overview/design/design_pf__c25gukz0vwgi_large.jpg",
-      "url": "https://www.apple.com/us-edu/shop/buy-mac/mac-mini",
-      "retailer": "apple.com",
       "variantLabel": "Colour",
       "variants": [],
       "availability": "available",
