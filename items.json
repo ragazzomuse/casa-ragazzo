@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-17",
-  "count": 84,
+  "count": 85,
   "items": [
     {
       "id": 11,
@@ -1476,6 +1476,22 @@
       "variants": [],
       "availability": "available",
       "imageContain": true
+    },
+    {
+      "id": 102,
+      "brand": "Seagate",
+      "title": "Expansion 4TB Portable External Hard Drive",
+      "price": 189.99,
+      "currency": "USD",
+      "size": "4TB",
+      "category": "Other",
+      "subcategory": "Tech & Gadgets",
+      "image": "https://cdn.shopify.com/s/files/1/0711/7147/3455/files/SEAGATE-HDD-EXTERNAL-4TB-2.5_E2_80_B3-EXPANSION-STKM4000400-2.webp?v=1775814646&width=1200",
+      "url": "https://www.bestbuy.com/product/seagate-expansion-4tb-external-usb-3-0-portable-hard-drive-with-rescue-data-recovery-services-black/J37C5H48K3",
+      "retailer": "bestbuy.com",
+      "variantLabel": "Colour",
+      "variants": [],
+      "availability": "available"
     }
   ]
 }
