@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-17",
-  "count": 83,
+  "count": 84,
   "items": [
     {
       "id": 11,
@@ -1459,6 +1459,22 @@
       "variants": [],
       "availability": "available",
       "imageContain": true
+    },
+    {
+      "id": 104,
+      "brand": "Buffalo",
+      "title": "MediaStation 6X Portable BDXL Blu-ray Writer",
+      "price": 179.99,
+      "currency": "USD",
+      "size": "",
+      "category": "Other",
+      "subcategory": "Tech & Gadgets",
+      "image": "https://www.bhphotovideo.com/images/images500x500/buffalo_brxl_pus6u3b_taa_mediastation_6x_portable_usb_1681474252_1761062.jpg",
+      "url": "https://www.bhphotovideo.com/c/product/1761062-REG/buffalo_brxl_pus6u3b_taa_mediastation_6x_portable_usb.html",
+      "retailer": "bhphotovideo.com",
+      "variantLabel": "Colour",
+      "variants": [],
+      "availability": "available"
     }
   ]
 }
