@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-18",
-  "count": 82,
+  "count": 85,
   "items": [
     {
       "id": 11,
@@ -1443,6 +1443,56 @@
       "variants": [],
       "availability": "available",
       "imageContain": true
+    },
+    {
+      "id": 106,
+      "brand": "Hudson Jeans",
+      "title": "Rylan Relaxed Straight Leg Jeans - Crestview",
+      "price": 228,
+      "currency": "USD",
+      "size": "28",
+      "category": "Clothing",
+      "subcategory": "Bottoms",
+      "image": "https://n.nordstrommedia.com/it/4601f26b-c215-49dc-9756-a9e102fb52f8.jpeg?w=1200&h=1800",
+      "url": "https://www.nordstrom.com/s/rylan-relaxed-straight-leg-jeans-crestview/9218411?color=44444G2KEH&size=28",
+      "retailer": "nordstrom.com",
+      "variantLabel": "Colour",
+      "variants": [],
+      "availability": "available",
+      "imageContain": true
+    },
+    {
+      "id": 107,
+      "brand": "Jacquemus",
+      "title": "Les Tongs Croc Embossed Water Repellent Flip Flop - Pale Yellow 205",
+      "price": 390,
+      "currency": "USD",
+      "size": "8 US / 41 EU",
+      "category": "Footwear",
+      "subcategory": "Sandals & Slides",
+      "image": "https://n.nordstrommedia.com/it/9d1a1417-ef50-4a53-a53d-1a12546ad354.jpeg?w=1200&h=1800",
+      "url": "https://www.nordstrom.com/s/les-tongs-croc-embossed-water-repellent-flip-flop-men/8711337?color=444445TZTT&size=8%20US%20%2F%2041%20EU",
+      "retailer": "nordstrom.com",
+      "variantLabel": "Colour",
+      "variants": [],
+      "availability": "available",
+      "imageContain": true
+    },
+    {
+      "id": 108,
+      "brand": "\u00daCH\u00c8",
+      "title": "Cowrie Shell Embellished Tank Top - White",
+      "price": 190,
+      "currency": "USD",
+      "size": "M & L",
+      "category": "Clothing",
+      "subcategory": "Tanks",
+      "image": "https://n.nordstrommedia.com/it/7ab1cf95-935e-4dd4-b4cf-13530640569b.png?w=1200&h=1800",
+      "url": "https://www.nordstrom.com/s/ch-cowrie-shell-embellished-tank-top/9218167?color=44444G2L77&size=Small",
+      "retailer": "nordstrom.com",
+      "variantLabel": "Colour",
+      "variants": [],
+      "availability": "available"
     }
   ]
 }
