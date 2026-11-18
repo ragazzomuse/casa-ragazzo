@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "count": 83,
   "items": [
     {
@@ -175,7 +175,7 @@
       "id": 25,
       "brand": "Durango",
       "title": "Ultra-lite Western Boot - Vintage Brown",
-      "price": 149.5,
+      "price": 141.5,
       "currency": "USD",
       "size": "8.5",
       "category": "Footwear",
@@ -341,7 +341,7 @@
       "id": 16,
       "brand": "Krys Vinczi",
       "title": "Blueprint Knit T-Shirt",
-      "price": 100,
+      "price": 142,
       "currency": "USD",
       "size": "Small",
       "category": "Clothing",
@@ -386,7 +386,7 @@
       "id": 13,
       "brand": "Maria Farro",
       "title": "ALEXA Flip Flop - Black Leather",
-      "price": 211,
+      "price": 202,
       "currency": "USD",
       "size": "41",
       "category": "Footwear",
@@ -396,7 +396,7 @@
       "retailer": "mariafarro.com",
       "variantLabel": "Colour",
       "variants": [],
-      "availability": "available"
+      "availability": "sold_out"
     },
     {
       "id": 12,
@@ -432,7 +432,7 @@
       "id": 22,
       "brand": "One Of These Days",
       "title": "An American Original Long Sleeve T-Shirt - Bone",
-      "price": 110,
+      "price": 55,
       "currency": "USD",
       "size": "Small",
       "category": "Clothing",
@@ -851,7 +851,7 @@
       "id": 63,
       "brand": "Nike",
       "title": "Standard Issue Men's 5\" Practice Mesh Basketball Shorts - Turf Orange/Pale Ivory",
-      "price": 52.97,
+      "price": 44.97,
       "currency": "USD",
       "size": "XS",
       "category": "Clothing",
@@ -1077,7 +1077,7 @@
       "id": 78,
       "brand": "G-STAR",
       "title": "Pleated Relaxed Straight Leg Chinos - Asfalt Gd",
-      "price": 180,
+      "price": 108,
       "currency": "USD",
       "size": "28x30",
       "category": "Clothing",
@@ -1093,7 +1093,7 @@
       "id": 79,
       "brand": "MANGO",
       "title": "x Fantastic Man Yes Graphic Sweatshirt - Medium Heather Grey",
-      "price": 69.99,
+      "price": 48.99,
       "currency": "USD",
       "size": "S",
       "category": "Clothing",
