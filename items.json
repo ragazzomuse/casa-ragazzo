@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "count": 85,
   "items": [
     {
@@ -217,7 +217,7 @@
       "retailer": "fermliving.us",
       "variantLabel": "Colour",
       "variants": [],
-      "availability": "sold_out"
+      "availability": "available"
     },
     {
       "id": 1,
@@ -341,7 +341,7 @@
       "id": 16,
       "brand": "Krys Vinczi",
       "title": "Blueprint Knit T-Shirt",
-      "price": 142,
+      "price": 105,
       "currency": "USD",
       "size": "Small",
       "category": "Clothing",
@@ -642,7 +642,7 @@
       "id": 29,
       "brand": "Studio A Home",
       "title": "Saddle Table - Natural Iron",
-      "price": 787.85,
+      "price": 787.07,
       "currency": "USD",
       "size": "",
       "category": "Home",
@@ -1215,7 +1215,7 @@
       "retailer": "ralphlauren.com",
       "variantLabel": "Colour",
       "variants": [],
-      "availability": "sold_out"
+      "availability": "available"
     },
     {
       "id": 88,
@@ -1448,7 +1448,7 @@
       "id": 106,
       "brand": "Hudson Jeans",
       "title": "Rylan Relaxed Straight Leg Jeans - Crestview",
-      "price": 228,
+      "price": 147,
       "currency": "USD",
       "size": "28",
       "category": "Clothing",
