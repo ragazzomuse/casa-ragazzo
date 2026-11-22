@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20",
+  "updated": "2026-11-22",
   "count": 85,
   "items": [
     {
@@ -893,7 +893,7 @@
       "retailer": "pleasuresnow.com",
       "variantLabel": "Colour",
       "variants": [],
-      "availability": "available"
+      "availability": "sold_out"
     },
     {
       "id": 67,
