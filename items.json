@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22",
+  "updated": "2026-11-23",
   "count": 85,
   "items": [
     {
@@ -642,7 +642,7 @@
       "id": 29,
       "brand": "Studio A Home",
       "title": "Saddle Table - Natural Iron",
-      "price": 787.85,
+      "price": 787.07,
       "currency": "USD",
       "size": "",
       "category": "Home",
@@ -929,7 +929,7 @@
     },
     {
       "id": 71,
-      "brand": "Nécessaire",
+      "brand": "N\u00e9cessaire",
       "title": "The Body Essentials (3-Step) - Eucalyptus",
       "price": 121,
       "currency": "USD",
@@ -1237,7 +1237,7 @@
       "id": 89,
       "brand": "ANTE BERLIN",
       "title": "Elite Shorts - Steel Grey",
-      "price": 168,
+      "price": 167,
       "currency": "USD",
       "size": "S",
       "category": "Clothing",
@@ -1253,7 +1253,7 @@
       "id": 90,
       "brand": "ANTE BERLIN",
       "title": "Elite Shorts - Deep Black",
-      "price": 168,
+      "price": 167,
       "currency": "USD",
       "size": "S",
       "category": "Clothing",
@@ -1269,7 +1269,7 @@
       "id": 91,
       "brand": "ANTE BERLIN",
       "title": "Elite Singlet - Steel Grey",
-      "price": 123,
+      "price": 122,
       "currency": "USD",
       "size": "S",
       "category": "Clothing",
@@ -1285,7 +1285,7 @@
       "id": 92,
       "brand": "ANTE BERLIN",
       "title": "Elite Singlet - Deep Black",
-      "price": 123,
+      "price": 122,
       "currency": "USD",
       "size": "S",
       "category": "Clothing",
@@ -1311,7 +1311,7 @@
       "retailer": "ralphlauren.com",
       "variantLabel": "Colour",
       "variants": [],
-      "availability": "sold_out"
+      "availability": "available"
     },
     {
       "id": 94,
@@ -1480,7 +1480,7 @@
     },
     {
       "id": 108,
-      "brand": "ÚCHÈ",
+      "brand": "\u00daCH\u00c8",
       "title": "Cowrie Shell Embellished Tank Top - White",
       "price": 190,
       "currency": "USD",
