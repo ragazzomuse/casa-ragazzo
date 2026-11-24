@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "count": 85,
   "items": [
     {
@@ -99,7 +99,7 @@
       "id": 26,
       "brand": "CB2",
       "title": "Journey Terracotta Red Velvet Stool",
-      "price": 319,
+      "price": 359,
       "currency": "USD",
       "size": "",
       "category": "Home",
@@ -642,7 +642,7 @@
       "id": 29,
       "brand": "Studio A Home",
       "title": "Saddle Table - Natural Iron",
-      "price": 787.07,
+      "price": 638.18,
       "currency": "USD",
       "size": "",
       "category": "Home",
@@ -979,7 +979,7 @@
       "id": 75,
       "brand": "Marni",
       "title": "White & Brown Fussbett Sabot Slip-on Loafers",
-      "price": 598,
+      "price": 550,
       "currency": "USD",
       "size": "41",
       "category": "Footwear",
@@ -1237,7 +1237,7 @@
       "id": 89,
       "brand": "ANTE BERLIN",
       "title": "Elite Shorts - Steel Grey",
-      "price": 167,
+      "price": 168,
       "currency": "USD",
       "size": "S",
       "category": "Clothing",
@@ -1253,7 +1253,7 @@
       "id": 90,
       "brand": "ANTE BERLIN",
       "title": "Elite Shorts - Deep Black",
-      "price": 167,
+      "price": 168,
       "currency": "USD",
       "size": "S",
       "category": "Clothing",
@@ -1269,7 +1269,7 @@
       "id": 91,
       "brand": "ANTE BERLIN",
       "title": "Elite Singlet - Steel Grey",
-      "price": 122,
+      "price": 123,
       "currency": "USD",
       "size": "S",
       "category": "Clothing",
@@ -1285,7 +1285,7 @@
       "id": 92,
       "brand": "ANTE BERLIN",
       "title": "Elite Singlet - Deep Black",
-      "price": 122,
+      "price": 123,
       "currency": "USD",
       "size": "S",
       "category": "Clothing",
@@ -1311,7 +1311,7 @@
       "retailer": "ralphlauren.com",
       "variantLabel": "Colour",
       "variants": [],
-      "availability": "available"
+      "availability": "sold_out"
     },
     {
       "id": 94,
