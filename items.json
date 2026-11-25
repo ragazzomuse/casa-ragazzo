@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-25",
-  "count": 86,
+  "count": 87,
   "items": [
     {
       "id": 11,
@@ -1505,6 +1505,22 @@
       "subcategory": "Sweatshirts",
       "image": "https://twojeys.com/cdn/shop/files/FT021_a69aa6ad-453b-42be-b297-66e9a66610dc.jpg?v=1732886442&width=1200",
       "url": "https://twojeys.com/products/icon-lab-antracita-hoodie?variant=50453732065607",
+      "retailer": "twojeys.com",
+      "variantLabel": "Colour",
+      "variants": [],
+      "availability": "available"
+    },
+    {
+      "id": 110,
+      "brand": "TwoJeys",
+      "title": "Studded Zipper Full-Zip Hoodie - Red",
+      "price": 144,
+      "currency": "USD",
+      "size": "XS",
+      "category": "Clothing",
+      "subcategory": "Sweatshirts",
+      "image": "https://twojeys.com/cdn/shop/files/FT131_1_df7a957c-f108-4028-9e75-43aed8adb4c0.jpg?v=1791558090&width=1200",
+      "url": "https://twojeys.com/products/studded-zipper-red?variant=53312579109191",
       "retailer": "twojeys.com",
       "variantLabel": "Colour",
       "variants": [],
