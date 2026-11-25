@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-24",
-  "count": 85,
+  "updated": "2026-11-25",
+  "count": 86,
   "items": [
     {
       "id": 11,
@@ -1490,6 +1490,22 @@
       "image": "https://n.nordstrommedia.com/it/7ab1cf95-935e-4dd4-b4cf-13530640569b.png?w=1200&h=1800",
       "url": "https://www.nordstrom.com/s/ch-cowrie-shell-embellished-tank-top/9218167?color=44444G2L77&size=Small",
       "retailer": "nordstrom.com",
+      "variantLabel": "Colour",
+      "variants": [],
+      "availability": "available"
+    },
+    {
+      "id": 109,
+      "brand": "TwoJeys",
+      "title": "Icon Lab Anthracite Hoodie",
+      "price": 153,
+      "currency": "USD",
+      "size": "XS",
+      "category": "Clothing",
+      "subcategory": "Sweatshirts",
+      "image": "https://twojeys.com/cdn/shop/files/FT021_a69aa6ad-453b-42be-b297-66e9a66610dc.jpg?v=1732886442&width=1200",
+      "url": "https://twojeys.com/products/icon-lab-antracita-hoodie?variant=50453732065607",
+      "retailer": "twojeys.com",
       "variantLabel": "Colour",
       "variants": [],
       "availability": "available"
