@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-27",
-  "count": 87,
+  "count": 88,
   "items": [
     {
       "id": 11,
@@ -1526,6 +1526,22 @@
       "image": "https://twojeys.com/cdn/shop/files/FT131_1_df7a957c-f108-4028-9e75-43aed8adb4c0.jpg?v=1791558090&width=1200",
       "url": "https://twojeys.com/products/studded-zipper-red?variant=53312579109191",
       "retailer": "twojeys.com",
+      "variantLabel": "Colour",
+      "variants": [],
+      "availability": "available"
+    },
+    {
+      "id": 111,
+      "brand": "Mani\u00e8re De Voir",
+      "title": "David Plush Cable Embossed Jacket - Brown",
+      "price": 445,
+      "currency": "USD",
+      "size": "S",
+      "category": "Clothing",
+      "subcategory": "Outerwear",
+      "image": "https://n.nordstrommedia.com/it/3e8d9924-2464-43c5-ad81-be8a6cc3a270.jpeg?w=1200&h=1800",
+      "url": "https://www.nordstrom.com/s/9015178",
+      "retailer": "nordstrom.com",
       "variantLabel": "Colour",
       "variants": [],
       "availability": "available"
