@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "count": 87,
   "items": [
     {
@@ -522,7 +522,7 @@
       "id": 28,
       "brand": "Rocco",
       "title": "The Super Smart Fridge - Brown",
-      "price": 1595,
+      "price": 1995,
       "currency": "USD",
       "size": "",
       "category": "Home",
@@ -537,7 +537,7 @@
       "id": 34,
       "brand": "Scuffers",
       "title": "Corduroy Flared Yellow Jacket",
-      "price": 119,
+      "price": 66,
       "currency": "USD",
       "size": "Small",
       "category": "Clothing",
@@ -546,7 +546,8 @@
       "url": "https://scuffers.com/products/corduroy-flared-yellow-jacket",
       "retailer": "scuffers.com",
       "variantLabel": "Colour",
-      "variants": []
+      "variants": [],
+      "availability": "sold_out"
     },
     {
       "id": 35,
@@ -630,7 +631,7 @@
       "id": 31,
       "brand": "Scuffers",
       "title": "Split Brown Knit",
-      "price": 129,
+      "price": 77,
       "currency": "USD",
       "size": "X-SMALL",
       "category": "Clothing",
@@ -756,7 +757,7 @@
       "id": 55,
       "brand": "Jean Paul Gaultier",
       "title": "Beige 'The Face' T-shirt",
-      "price": 319,
+      "price": 292,
       "currency": "USD",
       "size": "XS & S",
       "category": "Clothing",
@@ -802,7 +803,7 @@
       "id": 61,
       "brand": "Nike",
       "title": "Tempo Waistpack",
-      "price": 24,
+      "price": 30,
       "currency": "USD",
       "size": "One size",
       "category": "Bags",
@@ -814,7 +815,7 @@
       "variants": [
         {
           "label": "Black/Silver",
-          "price": 24,
+          "price": 30,
           "images": [
             "https://academy.scene7.com/is/image/academy/21472696?$pdp-zoom$"
           ]
@@ -982,7 +983,7 @@
       "id": 75,
       "brand": "Marni",
       "title": "White & Brown Fussbett Sabot Slip-on Loafers",
-      "price": 550,
+      "price": 490,
       "currency": "USD",
       "size": "41",
       "category": "Footwear",
@@ -998,7 +999,7 @@
       "id": 76,
       "brand": "Abercrombie & Fitch",
       "title": "Essential Ultra Baggy Open-Hem Sweatpant - Dark Heather Gray",
-      "price": 75,
+      "price": 56.25,
       "currency": "USD",
       "size": "XS Regular",
       "category": "Clothing",
@@ -1138,7 +1139,7 @@
       "retailer": "ralphlauren.com",
       "variantLabel": "Colour",
       "variants": [],
-      "availability": "available"
+      "availability": "sold_out"
     },
     {
       "id": 83,
@@ -1154,7 +1155,7 @@
       "retailer": "ralphlauren.com",
       "variantLabel": "Colour",
       "variants": [],
-      "availability": "available"
+      "availability": "sold_out"
     },
     {
       "id": 84,
@@ -1400,7 +1401,7 @@
       "id": 99,
       "brand": "Maison Margiela",
       "title": "Zip Jacket - Brown",
-      "price": 814,
+      "price": 1019,
       "currency": "USD",
       "size": "46/S",
       "category": "Clothing",
